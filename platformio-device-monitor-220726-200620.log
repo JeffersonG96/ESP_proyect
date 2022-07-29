@@ -1,0 +1,9 @@
+
+[2J[HEsp�re conectando....
+ Conectado Correctamente
+IP => 192.168.100.105 
+ ***Obteniendo Credenciales***
+{"email":"test1@test.com","password":"123456"}
+{"ok":true,"usuario":{"nombre":"JGE","email":"test1@test.com","uid":"62d9c65473a36709d8a9326f"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ5YzY1NDczYTM2NzA5ZDhhOTMyNmYiLCJpYXQiOjE2NTg4ODM5ODUsImV4cCI6MTY1OTQ4ODc4NX0.pgwly_DZBz41Ft_cViUAQpRzeS6i7C89sFvE1OxC1uI"}
+200
+

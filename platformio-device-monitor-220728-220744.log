@@ -1,0 +1,182 @@
+
+[2J[HEspere conectando..........
+ Conectado Correctamente
+IP => 192.168.100.105 
+ ***Obteniendo Credenciales***
+{"email":"test1@test.com","password":"123456"}
+200
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  }
+} 
+ ***Obteniendo Credenciales***
+{"email":"test1@test.com","password":"123456"}
+200
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  }
+}Intentando Conectar al Broker MQTT (EMQX)
+
+CONECTADO AL BROKER MQTT
+Subscrito: 62d9c65473a36709d8a9326f/+/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/res/sdata
+62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata

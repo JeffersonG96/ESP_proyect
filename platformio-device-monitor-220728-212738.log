@@ -1,0 +1,2688 @@
+ts Jun  8
+[2J[HEspere conectando....
+ Conectado Correctamente
+IP => 192.168.100.105 
+ ***Obteniendo Credenciales***
+{"email":"test1@test.com","password":"123456"}
+200
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  }
+} 
+ ***Obteniendo Credenciales***
+{"email":"test1@test.com","password":"123456"}
+200
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  }
+}Intentando Conectar al Broker MQTT (EMQX)
+
+CONECTADO AL BROKER MQTT
+Subscrito: 62d9c65473a36709d8a9326f/+/sdata
+62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 30,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 39,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 88,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 20,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 57,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 28,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 19,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 80,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 29,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 36,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 92,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 92,
+        "frecuencia": 5,
+        "save": 0
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 13,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 56,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 89,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 86,
+        "frecuencia": 10,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 54,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 84,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 60,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 52,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 32,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 43,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 60,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 16,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 64,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 1,
+        "frecuencia": 15,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 76,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 45,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 3,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 73,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 79,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 50,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 51,
+        "frecuencia": 5,
+        "save": 0
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 32,
+        "frecuencia": 10,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 43,
+        "frecuencia": 15,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 39,
+        "frecuencia": 5,
+        "save": 0
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 47,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 65,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 12,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 98,
+        "frecuencia": 10,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 3,
+        "frecuencia": 15,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 56,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 2,
+        "frecuencia": 10,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 9,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 92,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 40,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 64,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 28,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 35,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 96,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 24,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 71,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 18,
+        "frecuencia": 15,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 82,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 11,
+        "frecuencia": 10,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 22,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 41,
+        "frecuencia": 5,
+        "save": 0
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 37,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 98,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 51,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 58,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 52,
+        "frecuencia": 15,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 61,
+        "frecuencia": 5,
+        "save": 0
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 43,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 95,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 4,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 4,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 17,
+        "frecuencia": 15,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 18,
+        "frecuencia": 5,
+        "save": 0
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 55,
+        "frecuencia": 10,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 5,
+        "frecuencia": 15,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 51,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 53,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 39,
+        "frecuencia": 15,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 49,
+        "frecuencia": 5,
+        "save": 0
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 30,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 47,
+        "frecuencia": 15,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 89,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 16,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 59,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 52,
+        "frecuencia": 5,
+        "save": 0
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 81,
+        "frecuencia": 10,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 35,
+        "frecuencia": 15,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 69,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 17,
+        "frecuencia": 10,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 33,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 15,
+        "frecuencia": 5,
+        "save": 0
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 98,
+        "frecuencia": 10,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 89,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 17,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 50,
+        "frecuencia": 10,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 7,
+        "frecuencia": 15,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 43,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 9,
+        "frecuencia": 10,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 9,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 36,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 24,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 37,
+        "frecuencia": 15,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 60,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 34,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 92,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 68,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 60,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 90,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 87,
+        "frecuencia": 5,
+        "save": 0
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 34,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 17,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 41,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 60,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 41,
+        "frecuencia": 15,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 51,
+        "frecuencia": 5,
+        "save": 0
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 17,
+        "frecuencia": 10,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 53,
+        "frecuencia": 15,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 44,
+        "frecuencia": 5,
+        "save": 0
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 69,
+        "frecuencia": 10,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 13,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 81,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 36,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 93,
+        "frecuencia": 15,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 95,
+        "frecuencia": 5,
+        "save": 0
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 31,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 4,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 45,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 85,
+        "frecuencia": 10,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 96,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 58,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 50,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 6,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 48,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 28,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 74,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 97,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 53,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 54,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 89,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 77,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 84,
+        "frecuencia": 15,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 18,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 76,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 31,
+        "frecuencia": 15,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 19,
+        "frecuencia": 5,
+        "save": 0
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 35,
+        "frecuencia": 10,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 31,
+        "frecuencia": 15,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 27,
+        "frecuencia": 5,
+        "save": 0
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 52,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 30,
+        "frecuencia": 15,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 21,
+        "frecuencia": 5,
+        "save": 0
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 30,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 19,
+        "frecuencia": 15,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 80,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 82,
+        "frecuencia": 10,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 52,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 98,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 99,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 2,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 86,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 7,
+        "frecuencia": 10,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 18,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 97,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 13,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 20,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 62,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 38,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 4,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 86,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 76,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 6,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 50,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 79,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 2,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 9,
+        "frecuencia": 5,
+        "save": 0
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 12,
+        "frecuencia": 10,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 64,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 97,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 9,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 14,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 28,
+        "frecuencia": 5,
+        "save": 0
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 63,
+        "frecuencia": 10,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 4,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 19,
+        "frecuencia": 5,
+        "save": 0
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 84,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 7,
+        "frecuencia": 15,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 73,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 56,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 2,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 75,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 78,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 51,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 33,
+        "frecuencia": 5,
+        "save": 0
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 54,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 47,
+        "frecuencia": 15,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 84,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 32,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 30,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 42,
+        "frecuencia": 5,
+        "save": 0
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 86,
+        "frecuencia": 10,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 98,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 41,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 41,
+        "frecuencia": 10,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 76,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 7,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 48,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 85,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 21,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 9,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 30,
+        "frecuencia": 15,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 85,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 47,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 96,
+        "frecuencia": 15,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 27,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 41,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 32,
+        "frecuencia": 15,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 16,
+        "frecuencia": 5,
+        "save": 0
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 23,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 16,
+        "frecuencia": 15,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 72,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 99,
+        "frecuencia": 10,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 72,
+        "frecuencia": 15,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 62,
+        "frecuencia": 5,
+        "save": 0
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 24,
+        "frecuencia": 10,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 72,
+        "frecuencia": 15,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 13,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 59,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 53,
+        "frecuencia": 15,
+        "save": 1
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 19,
+        "frecuencia": 5,
+        "save": 1
+      }
+    }
+  ]
+}62d9c65473a36709d8a9326f/Temperatura/sdata
+62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/Respiracion/sdata
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  },
+  "variables": [
+    {
+      "last": {
+        "name": "Temperatura",
+        "value": 55,
+        "frecuencia": 10,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "BPM",
+        "value": 2,
+        "frecuencia": 15,
+        "save": 0
+      }
+    },
+    {
+      "last": {
+        "name": "Respiracion",
+        "value": 21,
+        "frecuencia": 5,
+        "save": 0
+      }
+    }
+  ]
+}
