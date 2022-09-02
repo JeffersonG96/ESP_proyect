@@ -1,0 +1,4311 @@
+Espere conectando....
+ Conectado Correctamente
+IP => 192.168.100.105 
+ ***ENVIANDO CREDENCIALES AL SERVIDOR***
+{"email":"test1@test.com","password":"123456"}
+200
+{
+  "usuario": {
+    "nombre": "test1",
+    "email": "test1@test.com",
+    "uid": "62ed9fc1013960dbf4864013"
+  }
+} 
+ ###### ENVIANDO UID ######
+{"uid":"62ed9fc1013960dbf4864013"}
+200
+{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013"
+}Intentando Conectar al Broker MQTT (EMQX)
+
+CONECTADO AL BROKER MQTT
+Subscrito: 62ed9fc1013960dbf4864013/+/sdata
+"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 65,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 64,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 91,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 59,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 31,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 17,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 54,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 31,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 20,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 12,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 72,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 14,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 53,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 45,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 75,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 67,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 34,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 62,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 10,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 98,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 25,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 10,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 78,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 50,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 6,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 4,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 67,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 93,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 34,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 11,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 27,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 26,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 12,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 83,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 42,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 80,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 38,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 43,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 68,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 61,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 33,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 44,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 89,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 66,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 87,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 22,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 32,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 96,
+        "save": 0
+      }
+    }
+  ]
+}CONEXIÓN WIFI NO DISPONIBLE
+Reiniciando... ESP
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:12784
+load:0x40080400,len:3032
+entry 0x400805e4
+Espere conectando...E (625) wifi:Set status to INIT
+E (651) wifi:Set status to INIT
+E (676) wifi:Set status to INIT
+E (701) wifi:Set status to INIT
+E (726) wifi:Set status to INIT
+E (751) wifi:Set status to INIT
+E (776) wifi:Set status to INIT
+E (802) wifi:Set status to INIT
+E (827) wifi:Set status to INIT
+E (852) wifi:Set status to INIT
+E (877) wifi:Set status to INIT
+E (902) wifi:Set status to INIT
+E (927) wifi:Set status to INIT
+E (952) wifi:Set status to INIT
+E (977) wifi:Set status to INIT
+E (1003) wifi:Set status to INIT
+E (1028) wifi:Set status to INIT
+E (1053) wifi:Set status to INIT
+E (1078) wifi:Set status to INIT
+E (1103) wifi:Set status to INIT
+.E (1129) wifi:Set status to INIT
+E (1154) wifi:Set status to INIT
+E (1179) wifi:Set status to INIT
+E (1202) wifi:Set status to INIT
+E (1227) wifi:Set status to INIT
+E (1253) wifi:Set status to INIT
+E (1278) wifi:Set status to INIT
+E (1303) wifi:Set status to INIT
+E (1328) wifi:Set status to INIT
+E (1353) wifi:Set status to INIT
+E (1379) wifi:Set status to INIT
+E (1404) wifi:Set status to INIT
+E (1429) wifi:Set status to INIT
+E (1454) wifi:Set status to INIT
+E (1479) wifi:Set status to INIT
+E (1504) wifi:Set status to INIT
+E (1529) wifi:Set status to INIT
+E (1554) wifi:Set status to INIT
+E (1580) wifi:Set status to INIT
+E (1607) wifi:Set status to INIT
+.E (1633) wifi:Set status to INIT
+E (1658) wifi:Set status to INIT
+E (1683) wifi:Set status to INIT
+E (1709) wifi:Set status to INIT
+E (1734) wifi:Set status to INIT
+E (1759) wifi:Set status to INIT
+E (1784) wifi:Set status to INIT
+E (1811) wifi:Set status to INIT
+E (1837) wifi:Set status to INIT
+E (1862) wifi:Set status to INIT
+E (1887) wifi:Set status to INIT
+E (1914) wifi:Set status to INIT
+E (1939) wifi:Set status to INIT
+E (1964) wifi:Set status to INIT
+E (1989) wifi:Set status to INIT
+E (2016) wifi:Set status to INIT
+E (2041) wifi:Set status to INIT
+E (2066) wifi:Set status to INIT
+E (2091) wifi:Set status to INIT
+.E (2119) wifi:Set status to INIT
+E (2144) wifi:Set status to INIT
+E (2169) wifi:Set status to INIT
+E (2194) wifi:Set status to INIT
+E (2221) wifi:Set status to INIT
+E (2246) wifi:Set status to INIT
+E (2271) wifi:Set status to INIT
+E (2296) wifi:Set status to INIT
+E (2323) wifi:Set status to INIT
+E (2349) wifi:Set status to INIT
+E (2374) wifi:Set status to INIT
+E (2399) wifi:Set status to INIT
+E (2426) wifi:Set status to INIT
+E (2451) wifi:Set status to INIT
+E (2476) wifi:Set status to INIT
+E (2502) wifi:Set status to INIT
+E (2528) wifi:Set status to INIT
+E (2553) wifi:Set status to INIT
+E (2578) wifi:Set status to INIT
+E (2604) wifi:Set status to INIT
+.E (2631) wifi:Set status to INIT
+E (2656) wifi:Set status to INIT
+E (2681) wifi:Set status to INIT
+E (2706) wifi:Set status to INIT
+E (2733) wifi:Set status to INIT
+E (2758) wifi:Set status to INIT
+E (2783) wifi:Set status to INIT
+E (2809) wifi:Set status to INIT
+E (2835) wifi:Set status to INIT
+E (2861) wifi:Set status to INIT
+E (2886) wifi:Set status to INIT
+E (2911) wifi:Set status to INIT
+E (2938) wifi:Set status to INIT
+E (2963) wifi:Set status to INIT
+E (2988) wifi:Set status to INIT
+E (3013) wifi:Set status to INIT
+E (3040) wifi:Set status to INIT
+E (3065) wifi:Set status to INIT
+E (3091) wifi:Set status to INIT
+.E (3116) wifi:Set status to INIT
+E (3143) wifi:Set status to INIT
+E (3168) wifi:Set status to INIT
+E (3193) wifi:Set status to INIT
+E (3218) wifi:Set status to INIT
+E (3245) wifi:Set status to INIT
+E (3270) wifi:Set status to INIT
+E (3295) wifi:Set status to INIT
+E (3320) wifi:Set status to INIT
+E (3353) wifi:Set status to INIT
+E (3386) wifi:Set status to INIT
+E (3411) wifi:Set status to INIT
+E (3437) wifi:Set status to INIT
+E (3462) wifi:Set status to INIT
+E (3491) wifi:Set status to INIT
+E (3520) wifi:Set status to INIT
+E (3545) wifi:Set status to INIT
+E (3570) wifi:Set status to INIT
+E (3595) wifi:Set status to INIT
+.E (3620) wifi:Set status to INIT
+E (3646) wifi:Set status to INIT
+E (3671) wifi:Set status to INIT
+E (3696) wifi:Set status to INIT
+E (3722) wifi:Set status to INIT
+E (3747) wifi:Set status to INIT
+E (3772) wifi:Set status to INIT
+E (3797) wifi:Set status to INIT
+E (3822) wifi:Set status to INIT
+E (3847) wifi:Set status to INIT
+E (3872) wifi:Set status to INIT
+E (3897) wifi:Set status to INIT
+E (3922) wifi:Set status to INIT
+E (3948) wifi:Set status to INIT
+E (3973) wifi:Set status to INIT
+E (3998) wifi:Set status to INIT
+E (4024) wifi:Set status to INIT
+E (4049) wifi:Set status to INIT
+E (4074) wifi:Set status to INIT
+E (4099) wifi:Set status to INIT
+.E (4124) wifi:Set status to INIT
+E (4149) wifi:Set status to INIT
+E (4175) wifi:Set status to INIT
+E (4200) wifi:Set status to INIT
+E (4225) wifi:Set status to INIT
+E (4250) wifi:Set status to INIT
+E (4274) wifi:Set status to INIT
+E (4299) wifi:Set status to INIT
+E (4324) wifi:Set status to INIT
+E (4350) wifi:Set status to INIT
+E (4375) wifi:Set status to INIT
+E (4400) wifi:Set status to INIT
+E (4425) wifi:Set status to INIT
+E (4450) wifi:Set status to INIT
+E (4475) wifi:Set status to INIT
+E (4501) wifi:Set status to INIT
+E (4526) wifi:Set status to INIT
+E (4551) wifi:Set status to INIT
+E (4576) wifi:Set status to INIT
+E (4601) wifi:Set status to INIT
+.E (4627) wifi:Set status to INIT
+E (4652) wifi:Set status to INIT
+E (4679) wifi:Set status to INIT
+E (4704) wifi:Set status to INIT
+E (4729) wifi:Set status to INIT
+E (4754) wifi:Set status to INIT
+E (4781) wifi:Set status to INIT
+E (4806) wifi:Set status to INIT
+E (4831) wifi:Set status to INIT
+E (4856) wifi:Set status to INIT
+E (4884) wifi:Set status to INIT
+E (4909) wifi:Set status to INIT
+E (4934) wifi:Set status to INIT
+E (4959) wifi:Set status to INIT
+E (4986) wifi:Set status to INIT
+E (5011) wifi:Set status to INIT
+E (5037) wifi:Set status to INIT
+E (5062) wifi:Set status to INIT
+E (5088) wifi:Set status to INIT
+.E (5113) wifi:Set status to INIT
+E (5139) wifi:Set status to INIT
+E (5164) wifi:Set status to INIT
+E (5191) wifi:Set status to INIT
+E (5216) wifi:Set status to INIT
+E (5241) wifi:Set status to INIT
+E (5266) wifi:Set status to INIT
+E (5293) wifi:Set status to INIT
+E (5318) wifi:Set status to INIT
+E (5343) wifi:Set status to INIT
+E (5368) wifi:Set status to INIT
+E (5396) wifi:Set status to INIT
+E (5421) wifi:Set status to INIT
+E (5446) wifi:Set status to INIT
+E (5471) wifi:Set status to INIT
+E (5498) wifi:Set status to INIT
+E (5523) wifi:Set status to INIT
+E (5548) wifi:Set status to INIT
+E (5573) wifi:Set status to INIT
+E (5600) wifi:Set status to INIT
+.E (5625) wifi:Set status to INIT
+E (5650) wifi:Set status to INIT
+E (5676) wifi:Set status to INIT
+E (5703) wifi:Set status to INIT
+E (5728) wifi:Set status to INIT
+E (5753) wifi:Set status to INIT
+E (5778) wifi:Set status to INIT
+E (5805) wifi:Set status to INIT
+E (5830) wifi:Set status to INIT
+E (5855) wifi:Set status to INIT
+E (5880) wifi:Set status to INIT
+E (5908) wifi:Set status to INIT
+E (5933) wifi:Set status to INIT
+E (5958) wifi:Set status to INIT
+E (5983) wifi:Set status to INIT
+E (6010) wifi:Set status to INIT
+E (6035) wifi:Set status to INIT
+E (6060) wifi:Set status to INIT
+E (6085) wifi:Set status to INIT
+.E (6112) wifi:Set status to INIT
+E (6137) wifi:Set status to INIT
+E (6162) wifi:Set status to INIT
+E (6188) wifi:Set status to INIT
+E (6216) wifi:Set status to INIT
+E (6241) wifi:Set status to INIT
+E (6266) wifi:Set status to INIT
+E (6291) wifi:Set status to INIT
+E (6317) wifi:Set status to INIT
+E (6342) wifi:Set status to INIT
+E (6367) wifi:Set status to INIT
+E (6392) wifi:Set status to INIT
+E (6421) wifi:Set status to INIT
+E (6447) wifi:Set status to INIT
+E (6472) wifi:Set status to INIT
+E (6497) wifi:Set status to INIT
+E (6522) wifi:Set status to INIT
+E (6547) wifi:Set status to INIT
+E (6599) wifi:Set status to INIT
+.E (6655) wifi:Set status to INIT
+E (6712) wifi:Set status to INIT
+E (6747) wifi:Set status to INIT
+E (6772) wifi:Set status to INIT
+E (6797) wifi:Set status to INIT
+E (6822) wifi:Set status to INIT
+E (6848) wifi:Set status to INIT
+E (6890) wifi:Set status to INIT
+E (6915) wifi:Set status to INIT
+E (6940) wifi:Set status to INIT
+E (6966) wifi:Set status to INIT
+E (6991) wifi:Set status to INIT
+E (7016) wifi:Set status to INIT
+E (7042) wifi:Set status to INIT
+E (7067) wifi:Set status to INIT
+E (7092) wifi:Set status to INIT
+.E (7117) wifi:Set status to INIT
+E (7142) wifi:Set status to INIT
+E (7167) wifi:Set status to INIT
+E (7192) wifi:Set status to INIT
+E (7217) wifi:Set status to INIT
+E (7242) wifi:Set status to INIT
+E (7267) wifi:Set status to INIT
+E (7292) wifi:Set status to INIT
+E (7318) wifi:Set status to INIT
+E (7343) wifi:Set status to INIT
+E (7368) wifi:Set status to INIT
+E (7393) wifi:Set status to INIT
+E (7418) wifi:Set status to INIT
+E (7444) wifi:Set status to INIT
+E (7469) wifi:Set status to INIT
+E (7494) wifi:Set status to INIT
+E (7519) wifi:Set status to INIT
+E (7551) wifi:Set status to INIT
+E (7577) wifi:Set status to INIT
+E (7602) wifi:Set status to INIT
+.E (7627) wifi:Set status to INIT
+E (7652) wifi:Set status to INIT
+E (7677) wifi:Set status to INIT
+E (7703) wifi:Set status to INIT
+E (7728) wifi:Set status to INIT
+E (7753) wifi:Set status to INIT
+E (7778) wifi:Set status to INIT
+E (7803) wifi:Set status to INIT
+E (7829) wifi:Set status to INIT
+E (7853) wifi:Set status to INIT
+E (7879) wifi:Set status to INIT
+E (7904) wifi:Set status to INIT
+E (7929) wifi:Set status to INIT
+E (7956) wifi:Set status to INIT
+E (7981) wifi:Set status to INIT
+E (8006) wifi:Set status to INIT
+E (8031) wifi:Set status to INIT
+E (8058) wifi:Set status to INIT
+E (8083) wifi:Set status to INIT
+E (8108) wifi:Set status to INIT
+.E (8133) wifi:Set status to INIT
+E (8161) wifi:Set status to INIT
+E (8186) wifi:Set status to INIT
+E (8211) wifi:Set status to INIT
+E (8237) wifi:Set status to INIT
+E (8263) wifi:Set status to INIT
+E (8288) wifi:Set status to INIT
+E (8313) wifi:Set status to INIT
+E (8339) wifi:Set status to INIT
+E (8365) wifi:Set status to INIT
+E (8390) wifi:Set status to INIT
+E (8415) wifi:Set status to INIT
+E (8441) wifi:Set status to INIT
+E (8468) wifi:Set status to INIT
+E (8493) wifi:Set status to INIT
+E (8518) wifi:Set status to INIT
+E (8543) wifi:Set status to INIT
+E (8570) wifi:Set status to INIT
+E (8595) wifi:Set status to INIT
+.Conexión Fallida :( 
+E (8620) wifi:Set status to INIT
+E (8645) wifi:Set status to INIT
+E (8672) wifi:Set status to INIT
+E (8697) wifi:Set status to INIT
+E (8723) wifi:Set status to INIT
+E (8748) wifi:Set status to INIT
+E (8775) wifi:Set status to INIT
+E (8800) wifi:Set status to INIT
+E (8825) wifi:Set status to INIT
+E (8850) wifi:Set status to INIT
+E (8877) wifi:Set status to INIT
+E (8902) wifi:Set status to INIT
+E (8927) wifi:Set status to INIT
+E (8953) wifi:Set status to INIT
+E (8980) wifi:Set status to INIT
+E (9005) wifi:Set status to INIT
+E (9030) wifi:Set status to INIT
+E (9055) wifi:Set status to INIT
+E (9082) wifi:Set status to INIT
+E (9107) wifi:Set status to INIT
+E (9132) wifi:Set status to INIT
+E (9157) wifi:Set status to INIT
+E (9184) wifi:Set status to INIT
+E (9210) wifi:Set status to INIT
+E (9235) wifi:Set status to INIT
+E (9260) wifi:Set status to INIT
+E (9287) wifi:Set status to INIT
+E (9312) wifi:Set status to INIT
+E (9337) wifi:Set status to INIT
+E (9363) wifi:Set status to INIT
+E (9389) wifi:Set status to INIT
+E (9414) wifi:Set status to INIT
+E (9439) wifi:Set status to INIT
+E (9465) wifi:Set status to INIT
+E (9492) wifi:Set status to INIT
+E (9517) wifi:Set status to INIT
+E (9542) wifi:Set status to INIT
+E (9567) wifi:Set status to INIT
+E (9594) wifi:Set status to INIT
+E (9619) wifi:Set status to INIT
+E (9644) wifi:Set status to INIT
+E (9669) wifi:Set status to INIT
+E (9696) wifi:Set status to INIT
+E (9722) wifi:Set status to INIT
+E (9747) wifi:Set status to INIT
+E (9772) wifi:Set status to INIT
+E (9799) wifi:Set status to INIT
+E (9824) wifi:Set status to INIT
+E (9849) wifi:Set status to INIT
+E (9874) wifi:Set status to INIT
+E (9901) wifi:Set status to INIT
+E (9926) wifi:Set status to INIT
+E (9951) wifi:Set status to INIT
+E (9976) wifi:Set status to INIT
+E (10004) wifi:Set status to INIT
+E (10029) wifi:Set status to INIT
+E (10054) wifi:Set status to INIT
+E (10079) wifi:Set status to INIT
+E (10106) wifi:Set status to INIT
+E (10131) wifi:Set status to INIT
+E (10156) wifi:Set status to INIT
+E (10181) wifi:Set status to INIT
+E (10208) wifi:Set status to INIT
+E (10234) wifi:Set status to INIT
+E (10259) wifi:Set status to INIT
+E (10284) wifi:Set status to INIT
+E (10311) wifi:Set status to INIT
+E (10336) wifi:Set status to INIT
+E (10361) wifi:Set status to INIT
+E (10386) wifi:Set status to INIT
+E (10413) wifi:Set status to INIT
+E (10439) wifi:Set status to INIT
+E (10464) wifi:Set status to INIT
+E (10489) wifi:Set status to INIT
+E (10516) wifi:Set status to INIT
+E (10541) wifi:Set status to INIT
+E (10566) wifi:Set status to INIT
+E (10591) wifi:Set status to INIT
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:12784
+load:0x40080400,len:3032
+entry 0x400805e4
+Espere conectando...E (616) wifi:Set status to INIT
+E (641) wifi:Set status to INIT
+E (667) wifi:Set status to INIT
+E (692) wifi:Set status to INIT
+E (717) wifi:Set status to INIT
+E (741) wifi:Set status to INIT
+E (766) wifi:Set status to INIT
+E (791) wifi:Set status to INIT
+E (816) wifi:Set status to INIT
+E (841) wifi:Set status to INIT
+E (867) wifi:Set status to INIT
+E (892) wifi:Set status to INIT
+E (917) wifi:Set status to INIT
+E (942) wifi:Set status to INIT
+E (968) wifi:Set status to INIT
+E (993) wifi:Set status to INIT
+E (1018) wifi:Set status to INIT
+E (1043) wifi:Set status to INIT
+E (1068) wifi:Set status to INIT
+E (1093) wifi:Set status to INIT
+.E (1119) wifi:Set status to INIT
+E (1145) wifi:Set status to INIT
+E (1170) wifi:Set status to INIT
+E (1196) wifi:Set status to INIT
+E (1221) wifi:Set status to INIT
+E (1248) wifi:Set status to INIT
+E (1273) wifi:Set status to INIT
+E (1298) wifi:Set status to INIT
+E (1323) wifi:Set status to INIT
+E (1350) wifi:Set status to INIT
+E (1376) wifi:Set status to INIT
+E (1401) wifi:Set status to INIT
+E (1426) wifi:Set status to INIT
+E (1453) wifi:Set status to INIT
+E (1478) wifi:Set status to INIT
+E (1503) wifi:Set status to INIT
+E (1528) wifi:Set status to INIT
+E (1555) wifi:Set status to INIT
+E (1580) wifi:Set status to INIT
+.E (1605) wifi:Set status to INIT
+E (1631) wifi:Set status to INIT
+E (1657) wifi:Set status to INIT
+E (1682) wifi:Set status to INIT
+E (1707) wifi:Set status to INIT
+E (1733) wifi:Set status to INIT
+E (1760) wifi:Set status to INIT
+E (1785) wifi:Set status to INIT
+E (1810) wifi:Set status to INIT
+E (1835) wifi:Set status to INIT
+E (1862) wifi:Set status to INIT
+E (1888) wifi:Set status to INIT
+E (1913) wifi:Set status to INIT
+E (1938) wifi:Set status to INIT
+E (1965) wifi:Set status to INIT
+E (1990) wifi:Set status to INIT
+E (2015) wifi:Set status to INIT
+E (2040) wifi:Set status to INIT
+E (2067) wifi:Set status to INIT
+E (2092) wifi:Set status to INIT
+.E (2117) wifi:Set status to INIT
+E (2143) wifi:Set status to INIT
+E (2169) wifi:Set status to INIT
+E (2194) wifi:Set status to INIT
+E (2220) wifi:Set status to INIT
+E (2245) wifi:Set status to INIT
+E (2272) wifi:Set status to INIT
+E (2297) wifi:Set status to INIT
+E (2322) wifi:Set status to INIT
+E (2347) wifi:Set status to INIT
+E (2374) wifi:Set status to INIT
+E (2400) wifi:Set status to INIT
+E (2425) wifi:Set status to INIT
+E (2450) wifi:Set status to INIT
+E (2477) wifi:Set status to INIT
+E (2502) wifi:Set status to INIT
+E (2527) wifi:Set status to INIT
+E (2552) wifi:Set status to INIT
+E (2579) wifi:Set status to INIT
+.E (2604) wifi:Set status to INIT
+E (2629) wifi:Set status to INIT
+E (2655) wifi:Set status to INIT
+E (2681) wifi:Set status to INIT
+E (2706) wifi:Set status to INIT
+E (2732) wifi:Set status to INIT
+E (2757) wifi:Set status to INIT
+E (2784) wifi:Set status to INIT
+E (2809) wifi:Set status to INIT
+E (2834) wifi:Set status to INIT
+E (2859) wifi:Set status to INIT
+E (2886) wifi:Set status to INIT
+E (2912) wifi:Set status to INIT
+E (2937) wifi:Set status to INIT
+E (2962) wifi:Set status to INIT
+E (2989) wifi:Set status to INIT
+E (3014) wifi:Set status to INIT
+E (3039) wifi:Set status to INIT
+E (3064) wifi:Set status to INIT
+E (3091) wifi:Set status to INIT
+.E (3116) wifi:Set status to INIT
+E (3141) wifi:Set status to INIT
+E (3167) wifi:Set status to INIT
+E (3193) wifi:Set status to INIT
+E (3218) wifi:Set status to INIT
+E (3244) wifi:Set status to INIT
+E (3269) wifi:Set status to INIT
+E (3296) wifi:Set status to INIT
+E (3321) wifi:Set status to INIT
+E (3346) wifi:Set status to INIT
+E (3371) wifi:Set status to INIT
+E (3398) wifi:Set status to INIT
+E (3424) wifi:Set status to INIT
+E (3449) wifi:Set status to INIT
+E (3474) wifi:Set status to INIT
+E (3501) wifi:Set status to INIT
+E (3526) wifi:Set status to INIT
+E (3551) wifi:Set status to INIT
+E (3576) wifi:Set status to INIT
+.E (3603) wifi:Set status to INIT
+E (3628) wifi:Set status to INIT
+E (3653) wifi:Set status to INIT
+E (3679) wifi:Set status to INIT
+E (3705) wifi:Set status to INIT
+E (3730) wifi:Set status to INIT
+E (3756) wifi:Set status to INIT
+E (3781) wifi:Set status to INIT
+E (3808) wifi:Set status to INIT
+E (3833) wifi:Set status to INIT
+E (3858) wifi:Set status to INIT
+E (3883) wifi:Set status to INIT
+E (3910) wifi:Set status to INIT
+E (3936) wifi:Set status to INIT
+E (3961) wifi:Set status to INIT
+E (3986) wifi:Set status to INIT
+E (4013) wifi:Set status to INIT
+E (4038) wifi:Set status to INIT
+E (4063) wifi:Set status to INIT
+E (4088) wifi:Set status to INIT
+.E (4115) wifi:Set status to INIT
+E (4140) wifi:Set status to INIT
+E (4165) wifi:Set status to INIT
+E (4191) wifi:Set status to INIT
+E (4217) wifi:Set status to INIT
+E (4242) wifi:Set status to INIT
+E (4268) wifi:Set status to INIT
+E (4293) wifi:Set status to INIT
+E (4320) wifi:Set status to INIT
+E (4345) wifi:Set status to INIT
+E (4370) wifi:Set status to INIT
+E (4395) wifi:Set status to INIT
+E (4422) wifi:Set status to INIT
+E (4448) wifi:Set status to INIT
+E (4473) wifi:Set status to INIT
+E (4498) wifi:Set status to INIT
+E (4525) wifi:Set status to INIT
+E (4550) wifi:Set status to INIT
+E (4575) wifi:Set status to INIT
+.E (4600) wifi:Set status to INIT
+E (4627) wifi:Set status to INIT
+E (4652) wifi:Set status to INIT
+E (4677) wifi:Set status to INIT
+E (4703) wifi:Set status to INIT
+E (4729) wifi:Set status to INIT
+E (4754) wifi:Set status to INIT
+E (4780) wifi:Set status to INIT
+E (4805) wifi:Set status to INIT
+E (4832) wifi:Set status to INIT
+E (4857) wifi:Set status to INIT
+E (4882) wifi:Set status to INIT
+E (4907) wifi:Set status to INIT
+E (4934) wifi:Set status to INIT
+E (4960) wifi:Set status to INIT
+E (4985) wifi:Set status to INIT
+E (5010) wifi:Set status to INIT
+E (5037) wifi:Set status to INIT
+E (5062) wifi:Set status to INIT
+E (5087) wifi:Set status to INIT
+.E (5112) wifi:Set status to INIT
+E (5139) wifi:Set status to INIT
+E (5164) wifi:Set status to INIT
+E (5189) wifi:Set status to INIT
+E (5214) wifi:Set status to INIT
+E (5241) wifi:Set status to INIT
+E (5267) wifi:Set status to INIT
+E (5292) wifi:Set status to INIT
+E (5317) wifi:Set status to INIT
+E (5344) wifi:Set status to INIT
+E (5369) wifi:Set status to INIT
+E (5394) wifi:Set status to INIT
+E (5419) wifi:Set status to INIT
+E (5446) wifi:Set status to INIT
+E (5472) wifi:Set status to INIT
+E (5497) wifi:Set status to INIT
+E (5522) wifi:Set status to INIT
+E (5549) wifi:Set status to INIT
+E (5574) wifi:Set status to INIT
+E (5599) wifi:Set status to INIT
+.E (5624) wifi:Set status to INIT
+E (5651) wifi:Set status to INIT
+E (5676) wifi:Set status to INIT
+E (5701) wifi:Set status to INIT
+E (5726) wifi:Set status to INIT
+E (5753) wifi:Set status to INIT
+E (5778) wifi:Set status to INIT
+E (5804) wifi:Set status to INIT
+E (5829) wifi:Set status to INIT
+E (5856) wifi:Set status to INIT
+E (5881) wifi:Set status to INIT
+E (5906) wifi:Set status to INIT
+E (5931) wifi:Set status to INIT
+E (5958) wifi:Set status to INIT
+E (5983) wifi:Set status to INIT
+E (6009) wifi:Set status to INIT
+E (6034) wifi:Set status to INIT
+E (6061) wifi:Set status to INIT
+E (6086) wifi:Set status to INIT
+.E (6111) wifi:Set status to INIT
+E (6136) wifi:Set status to INIT
+E (6163) wifi:Set status to INIT
+E (6188) wifi:Set status to INIT
+E (6213) wifi:Set status to INIT
+E (6238) wifi:Set status to INIT
+E (6265) wifi:Set status to INIT
+E (6291) wifi:Set status to INIT
+E (6316) wifi:Set status to INIT
+E (6341) wifi:Set status to INIT
+E (6368) wifi:Set status to INIT
+E (6399) wifi:Set status to INIT
+E (6424) wifi:Set status to INIT
+E (6454) wifi:Set status to INIT
+E (6479) wifi:Set status to INIT
+E (6505) wifi:Set status to INIT
+E (6530) wifi:Set status to INIT
+E (6555) wifi:Set status to INIT
+E (6581) wifi:Set status to INIT
+.E (6606) wifi:Set status to INIT
+E (6631) wifi:Set status to INIT
+E (6656) wifi:Set status to INIT
+E (6680) wifi:Set status to INIT
+E (6705) wifi:Set status to INIT
+E (6730) wifi:Set status to INIT
+E (6756) wifi:Set status to INIT
+E (6781) wifi:Set status to INIT
+E (6806) wifi:Set status to INIT
+E (6831) wifi:Set status to INIT
+E (6856) wifi:Set status to INIT
+E (6882) wifi:Set status to INIT
+E (6907) wifi:Set status to INIT
+E (6932) wifi:Set status to INIT
+E (6957) wifi:Set status to INIT
+E (6982) wifi:Set status to INIT
+E (7007) wifi:Set status to INIT
+E (7033) wifi:Set status to INIT
+E (7058) wifi:Set status to INIT
+E (7085) wifi:Set status to INIT
+.E (7110) wifi:Set status to INIT
+E (7135) wifi:Set status to INIT
+E (7160) wifi:Set status to INIT
+E (7187) wifi:Set status to INIT
+E (7212) wifi:Set status to INIT
+E (7237) wifi:Set status to INIT
+E (7263) wifi:Set status to INIT
+E (7289) wifi:Set status to INIT
+E (7315) wifi:Set status to INIT
+E (7340) wifi:Set status to INIT
+E (7365) wifi:Set status to INIT
+E (7392) wifi:Set status to INIT
+E (7417) wifi:Set status to INIT
+E (7442) wifi:Set status to INIT
+E (7467) wifi:Set status to INIT
+E (7494) wifi:Set status to INIT
+E (7520) wifi:Set status to INIT
+E (7545) wifi:Set status to INIT
+E (7570) wifi:Set status to INIT
+E (7597) wifi:Set status to INIT
+.E (7622) wifi:Set status to INIT
+E (7647) wifi:Set status to INIT
+E (7672) wifi:Set status to INIT
+E (7699) wifi:Set status to INIT
+E (7724) wifi:Set status to INIT
+E (7749) wifi:Set status to INIT
+E (7775) wifi:Set status to INIT
+E (7801) wifi:Set status to INIT
+E (7827) wifi:Set status to INIT
+E (7852) wifi:Set status to INIT
+E (7877) wifi:Set status to INIT
+E (7904) wifi:Set status to INIT
+E (7929) wifi:Set status to INIT
+E (7954) wifi:Set status to INIT
+E (7979) wifi:Set status to INIT
+E (8006) wifi:Set status to INIT
+E (8031) wifi:Set status to INIT
+E (8056) wifi:Set status to INIT
+E (8082) wifi:Set status to INIT
+.E (8109) wifi:Set status to INIT
+E (8134) wifi:Set status to INIT
+E (8159) wifi:Set status to INIT
+E (8184) wifi:Set status to INIT
+E (8211) wifi:Set status to INIT
+E (8236) wifi:Set status to INIT
+E (8261) wifi:Set status to INIT
+E (8287) wifi:Set status to INIT
+E (8313) wifi:Set status to INIT
+E (8339) wifi:Set status to INIT
+E (8364) wifi:Set status to INIT
+E (8389) wifi:Set status to INIT
+E (8416) wifi:Set status to INIT
+E (8441) wifi:Set status to INIT
+E (8466) wifi:Set status to INIT
+E (8492) wifi:Set status to INIT
+E (8518) wifi:Set status to INIT
+E (8543) wifi:Set status to INIT
+E (8569) wifi:Set status to INIT
+E (8594) wifi:Set status to INIT
+.Conexión Fallida :( 
+E (8621) wifi:Set status to INIT
+E (8646) wifi:Set status to INIT
+E (8671) wifi:Set status to INIT
+E (8696) wifi:Set status to INIT
+E (8723) wifi:Set status to INIT
+E (8748) wifi:Set status to INIT
+E (8773) wifi:Set status to INIT
+E (8798) wifi:Set status to INIT
+E (8825) wifi:Set status to INIT
+E (8851) wifi:Set status to INIT
+E (8876) wifi:Set status to INIT
+E (8901) wifi:Set status to INIT
+E (8928) wifi:Set status to INIT
+E (8953) wifi:Set status to INIT
+E (8978) wifi:Set status to INIT
+E (9003) wifi:Set status to INIT
+E (9030) wifi:Set status to INIT
+E (9055) wifi:Set status to INIT
+E (9081) wifi:Set status to INIT
+E (9106) wifi:Set status to INIT
+E (9133) wifi:Set status to INIT
+E (9158) wifi:Set status to INIT
+E (9183) wifi:Set status to INIT
+E (9208) wifi:Set status to INIT
+E (9235) wifi:Set status to INIT
+E (9260) wifi:Set status to INIT
+E (9285) wifi:Set status to INIT
+E (9311) wifi:Set status to INIT
+E (9337) wifi:Set status to INIT
+E (9363) wifi:Set status to INIT
+E (9388) wifi:Set status to INIT
+E (9413) wifi:Set status to INIT
+E (9440) wifi:Set status to INIT
+E (9465) wifi:Set status to INIT
+E (9491) wifi:Set status to INIT
+E (9517) wifi:Set status to INIT
+E (9542) wifi:Set status to INIT
+E (9568) wifi:Set status to INIT
+E (9593) wifi:Set status to INIT
+E (9618) wifi:Set status to INIT
+E (9645) wifi:Set status to INIT
+E (9670) wifi:Set status to INIT
+E (9695) wifi:Set status to INIT
+E (9720) wifi:Set status to INIT
+E (9747) wifi:Set status to INIT
+E (9772) wifi:Set status to INIT
+E (9797) wifi:Set status to INIT
+E (9822) wifi:Set status to INIT
+E (9850) wifi:Set status to INIT
+E (9875) wifi:Set status to INIT
+E (9900) wifi:Set status to INIT
+E (9925) wifi:Set status to INIT
+E (9952) wifi:Set status to INIT
+E (9977) wifi:Set status to INIT
+E (10002) wifi:Set status to INIT
+E (10027) wifi:Set status to INIT
+E (10054) wifi:Set status to INIT
+E (10079) wifi:Set status to INIT
+E (10105) wifi:Set status to INIT
+E (10130) wifi:Set status to INIT
+E (10157) wifi:Set status to INIT
+E (10182) wifi:Set status to INIT
+E (10207) wifi:Set status to INIT
+E (10232) wifi:Set status to INIT
+E (10259) wifi:Set status to INIT
+E (10284) wifi:Set status to INIT
+E (10309) wifi:Set status to INIT
+E (10334) wifi:Set status to INIT
+E (10361) wifi:Set status to INIT
+E (10387) wifi:Set status to INIT
+E (10412) wifi:Set status to INIT
+E (10437) wifi:Set status to INIT
+E (10464) wifi:Set status to INIT
+E (10490) wifi:Set status to INIT
+E (10515) wifi:Set status to INIT
+E (10540) wifi:Set status to INIT
+E (10566) wifi:Set status to INIT
+E (10591) wifi:Set status to INIT
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:12784
+load:0x40080400,len:3032
+entry 0x400805e4
+Espere conectando...E (618) wifi:Set status to INIT
+E (643) wifi:Set status to INIT
+E (668) wifi:Set status to INIT
+E (693) wifi:Set status to INIT
+E (718) wifi:Set status to INIT
+E (743) wifi:Set status to INIT
+E (768) wifi:Set status to INIT
+E (793) wifi:Set status to INIT
+E (818) wifi:Set status to INIT
+E (843) wifi:Set status to INIT
+E (868) wifi:Set status to INIT
+E (894) wifi:Set status to INIT
+E (919) wifi:Set status to INIT
+E (944) wifi:Set status to INIT
+E (969) wifi:Set status to INIT
+E (994) wifi:Set status to INIT
+E (1020) wifi:Set status to INIT
+E (1045) wifi:Set status to INIT
+E (1070) wifi:Set status to INIT
+E (1095) wifi:Set status to INIT
+.E (1120) wifi:Set status to INIT
+E (1147) wifi:Set status to INIT
+E (1172) wifi:Set status to INIT
+E (1197) wifi:Set status to INIT
+E (1222) wifi:Set status to INIT
+E (1249) wifi:Set status to INIT
+E (1275) wifi:Set status to INIT
+E (1300) wifi:Set status to INIT
+E (1325) wifi:Set status to INIT
+E (1352) wifi:Set status to INIT
+E (1377) wifi:Set status to INIT
+E (1403) wifi:Set status to INIT
+E (1428) wifi:Set status to INIT
+E (1454) wifi:Set status to INIT
+E (1480) wifi:Set status to INIT
+E (1505) wifi:Set status to INIT
+E (1530) wifi:Set status to INIT
+E (1557) wifi:Set status to INIT
+E (1582) wifi:Set status to INIT
+.E (1607) wifi:Set status to INIT
+E (1632) wifi:Set status to INIT
+E (1659) wifi:Set status to INIT
+E (1684) wifi:Set status to INIT
+E (1709) wifi:Set status to INIT
+E (1734) wifi:Set status to INIT
+E (1761) wifi:Set status to INIT
+E (1787) wifi:Set status to INIT
+E (1812) wifi:Set status to INIT
+E (1837) wifi:Set status to INIT
+E (1864) wifi:Set status to INIT
+E (1889) wifi:Set status to INIT
+E (1914) wifi:Set status to INIT
+E (1940) wifi:Set status to INIT
+E (1966) wifi:Set status to INIT
+E (1992) wifi:Set status to INIT
+E (2017) wifi:Set status to INIT
+E (2042) wifi:Set status to INIT
+E (2069) wifi:Set status to INIT
+E (2094) wifi:Set status to INIT
+.E (2119) wifi:Set status to INIT
+E (2144) wifi:Set status to INIT
+E (2171) wifi:Set status to INIT
+E (2196) wifi:Set status to INIT
+E (2221) wifi:Set status to INIT
+E (2246) wifi:Set status to INIT
+E (2273) wifi:Set status to INIT
+E (2299) wifi:Set status to INIT
+E (2324) wifi:Set status to INIT
+E (2349) wifi:Set status to INIT
+E (2376) wifi:Set status to INIT
+E (2401) wifi:Set status to INIT
+E (2426) wifi:Set status to INIT
+E (2452) wifi:Set status to INIT
+E (2478) wifi:Set status to INIT
+E (2503) wifi:Set status to INIT
+E (2529) wifi:Set status to INIT
+E (2554) wifi:Set status to INIT
+E (2581) wifi:Set status to INIT
+.E (2606) wifi:Set status to INIT
+E (2631) wifi:Set status to INIT
+E (2656) wifi:Set status to INIT
+E (2683) wifi:Set status to INIT
+E (2708) wifi:Set status to INIT
+E (2733) wifi:Set status to INIT
+E (2759) wifi:Set status to INIT
+E (2785) wifi:Set status to INIT
+E (2811) wifi:Set status to INIT
+E (2836) wifi:Set status to INIT
+E (2861) wifi:Set status to INIT
+E (2888) wifi:Set status to INIT
+E (2913) wifi:Set status to INIT
+E (2939) wifi:Set status to INIT
+E (2964) wifi:Set status to INIT
+E (2990) wifi:Set status to INIT
+E (3015) wifi:Set status to INIT
+E (3041) wifi:Set status to INIT
+E (3066) wifi:Set status to INIT
+E (3093) wifi:Set status to INIT
+.E (3118) wifi:Set status to INIT
+E (3143) wifi:Set status to INIT
+E (3168) wifi:Set status to INIT
+E (3195) wifi:Set status to INIT
+E (3220) wifi:Set status to INIT
+E (3245) wifi:Set status to INIT
+E (3270) wifi:Set status to INIT
+E (3298) wifi:Set status to INIT
+E (3323) wifi:Set status to INIT
+E (3348) wifi:Set status to INIT
+E (3373) wifi:Set status to INIT
+E (3400) wifi:Set status to INIT
+E (3425) wifi:Set status to INIT
+E (3451) wifi:Set status to INIT
+E (3476) wifi:Set status to INIT
+E (3502) wifi:Set status to INIT
+E (3527) wifi:Set status to INIT
+E (3553) wifi:Set status to INIT
+E (3578) wifi:Set status to INIT
+.E (3605) wifi:Set status to INIT
+E (3630) wifi:Set status to INIT
+E (3655) wifi:Set status to INIT
+E (3680) wifi:Set status to INIT
+E (3707) wifi:Set status to INIT
+E (3732) wifi:Set status to INIT
+E (3757) wifi:Set status to INIT
+E (3783) wifi:Set status to INIT
+E (3809) wifi:Set status to INIT
+E (3835) wifi:Set status to INIT
+E (3860) wifi:Set status to INIT
+E (3885) wifi:Set status to INIT
+E (3912) wifi:Set status to INIT
+E (3937) wifi:Set status to INIT
+E (3963) wifi:Set status to INIT
+E (3988) wifi:Set status to INIT
+E (4014) wifi:Set status to INIT
+E (4039) wifi:Set status to INIT
+E (4065) wifi:Set status to INIT
+E (4090) wifi:Set status to INIT
+.E (4117) wifi:Set status to INIT
+E (4143) wifi:Set status to INIT
+E (4173) wifi:Set status to INIT
+E (4199) wifi:Set status to INIT
+E (4224) wifi:Set status to INIT
+E (4249) wifi:Set status to INIT
+E (4274) wifi:Set status to INIT
+E (4299) wifi:Set status to INIT
+E (4325) wifi:Set status to INIT
+E (4350) wifi:Set status to INIT
+E (4375) wifi:Set status to INIT
+E (4400) wifi:Set status to INIT
+E (4425) wifi:Set status to INIT
+E (4451) wifi:Set status to INIT
+E (4476) wifi:Set status to INIT
+E (4501) wifi:Set status to INIT
+E (4526) wifi:Set status to INIT
+E (4551) wifi:Set status to INIT
+E (4577) wifi:Set status to INIT
+.E (4602) wifi:Set status to INIT
+E (4629) wifi:Set status to INIT
+E (4654) wifi:Set status to INIT
+E (4679) wifi:Set status to INIT
+E (4704) wifi:Set status to INIT
+E (4731) wifi:Set status to INIT
+E (4756) wifi:Set status to INIT
+E (4781) wifi:Set status to INIT
+E (4806) wifi:Set status to INIT
+E (4833) wifi:Set status to INIT
+E (4859) wifi:Set status to INIT
+E (4884) wifi:Set status to INIT
+E (4909) wifi:Set status to INIT
+E (4936) wifi:Set status to INIT
+E (4962) wifi:Set status to INIT
+E (4987) wifi:Set status to INIT
+E (5012) wifi:Set status to INIT
+E (5038) wifi:Set status to INIT
+E (5064) wifi:Set status to INIT
+E (5089) wifi:Set status to INIT
+.E (5114) wifi:Set status to INIT
+E (5141) wifi:Set status to INIT
+E (5166) wifi:Set status to INIT
+E (5191) wifi:Set status to INIT
+E (5216) wifi:Set status to INIT
+E (5243) wifi:Set status to INIT
+E (5268) wifi:Set status to INIT
+E (5293) wifi:Set status to INIT
+E (5318) wifi:Set status to INIT
+E (5346) wifi:Set status to INIT
+E (5371) wifi:Set status to INIT
+E (5396) wifi:Set status to INIT
+E (5421) wifi:Set status to INIT
+E (5448) wifi:Set status to INIT
+E (5473) wifi:Set status to INIT
+E (5498) wifi:Set status to INIT
+E (5523) wifi:Set status to INIT
+E (5550) wifi:Set status to INIT
+E (5575) wifi:Set status to INIT
+E (5600) wifi:Set status to INIT
+.E (5626) wifi:Set status to INIT
+E (5653) wifi:Set status to INIT
+E (5678) wifi:Set status to INIT
+E (5703) wifi:Set status to INIT
+E (5728) wifi:Set status to INIT
+E (5755) wifi:Set status to INIT
+E (5780) wifi:Set status to INIT
+E (5805) wifi:Set status to INIT
+E (5830) wifi:Set status to INIT
+E (5861) wifi:Set status to INIT
+E (5965) wifi:Set status to INIT
+E (5990) wifi:Set status to INIT
+E (6015) wifi:Set status to INIT
+E (6041) wifi:Set status to INIT
+E (6066) wifi:Set status to INIT
+E (6091) wifi:Set status to INIT
+.E (6116) wifi:Set status to INIT
+E (6141) wifi:Set status to INIT
+E (6166) wifi:Set status to INIT
+E (6191) wifi:Set status to INIT
+E (6216) wifi:Set status to INIT
+E (6242) wifi:Set status to INIT
+E (6267) wifi:Set status to INIT
+E (6292) wifi:Set status to INIT
+E (6317) wifi:Set status to INIT
+E (6342) wifi:Set status to INIT
+E (6370) wifi:Set status to INIT
+E (6395) wifi:Set status to INIT
+E (6420) wifi:Set status to INIT
+E (6445) wifi:Set status to INIT
+E (6472) wifi:Set status to INIT
+E (6497) wifi:Set status to INIT
+E (6522) wifi:Set status to INIT
+E (6547) wifi:Set status to INIT
+E (6574) wifi:Set status to INIT
+E (6599) wifi:Set status to INIT
+.E (6625) wifi:Set status to INIT
+E (6650) wifi:Set status to INIT
+E (6677) wifi:Set status to INIT
+E (6702) wifi:Set status to INIT
+E (6727) wifi:Set status to INIT
+E (6752) wifi:Set status to INIT
+E (6779) wifi:Set status to INIT
+E (6804) wifi:Set status to INIT
+E (6829) wifi:Set status to INIT
+E (6854) wifi:Set status to INIT
+E (6882) wifi:Set status to INIT
+E (6907) wifi:Set status to INIT
+E (6932) wifi:Set status to INIT
+E (6957) wifi:Set status to INIT
+E (6984) wifi:Set status to INIT
+E (7009) wifi:Set status to INIT
+E (7034) wifi:Set status to INIT
+E (7059) wifi:Set status to INIT
+E (7086) wifi:Set status to INIT
+.E (7111) wifi:Set status to INIT
+E (7137) wifi:Set status to INIT
+E (7162) wifi:Set status to INIT
+E (7189) wifi:Set status to INIT
+E (7214) wifi:Set status to INIT
+E (7239) wifi:Set status to INIT
+E (7264) wifi:Set status to INIT
+E (7291) wifi:Set status to INIT
+E (7316) wifi:Set status to INIT
+E (7341) wifi:Set status to INIT
+E (7367) wifi:Set status to INIT
+E (7394) wifi:Set status to INIT
+E (7419) wifi:Set status to INIT
+E (7444) wifi:Set status to INIT
+E (7469) wifi:Set status to INIT
+E (7496) wifi:Set status to INIT
+E (7521) wifi:Set status to INIT
+E (7546) wifi:Set status to INIT
+E (7571) wifi:Set status to INIT
+E (7598) wifi:Set status to INIT
+.E (7623) wifi:Set status to INIT
+E (7649) wifi:Set status to INIT
+E (7674) wifi:Set status to INIT
+E (7701) wifi:Set status to INIT
+E (7726) wifi:Set status to INIT
+E (7751) wifi:Set status to INIT
+E (7776) wifi:Set status to INIT
+E (7803) wifi:Set status to INIT
+E (7828) wifi:Set status to INIT
+E (7853) wifi:Set status to INIT
+E (7879) wifi:Set status to INIT
+E (7906) wifi:Set status to INIT
+E (7931) wifi:Set status to INIT
+E (7956) wifi:Set status to INIT
+E (7981) wifi:Set status to INIT
+E (8008) wifi:Set status to INIT
+E (8033) wifi:Set status to INIT
+E (8059) wifi:Set status to INIT
+E (8084) wifi:Set status to INIT
+.E (8110) wifi:Set status to INIT
+E (8135) wifi:Set status to INIT
+E (8161) wifi:Set status to INIT
+E (8186) wifi:Set status to INIT
+E (8213) wifi:Set status to INIT
+E (8238) wifi:Set status to INIT
+E (8263) wifi:Set status to INIT
+E (8288) wifi:Set status to INIT
+E (8315) wifi:Set status to INIT
+E (8340) wifi:Set status to INIT
+E (8365) wifi:Set status to INIT
+E (8391) wifi:Set status to INIT
+E (8418) wifi:Set status to INIT
+E (8443) wifi:Set status to INIT
+E (8468) wifi:Set status to INIT
+E (8494) wifi:Set status to INIT
+E (8520) wifi:Set status to INIT
+E (8545) wifi:Set status to INIT
+E (8570) wifi:Set status to INIT
+E (8595) wifi:Set status to INIT
+.Conexión Fallida :( 
+E (8622) wifi:Set status to INIT
+E (8648) wifi:Set status to INIT
+E (8673) wifi:Set status to INIT
+E (8698) wifi:Set status to INIT
+E (8725) wifi:Set status to INIT
+E (8750) wifi:Set status to INIT
+E (8775) wifi:Set status to INIT
+E (8800) wifi:Set status to INIT
+E (8827) wifi:Set status to INIT
+E (8852) wifi:Set status to INIT
+E (8877) wifi:Set status to INIT
+E (8903) wifi:Set status to INIT
+E (8930) wifi:Set status to INIT
+E (8955) wifi:Set status to INIT
+E (8980) wifi:Set status to INIT
+E (9005) wifi:Set status to INIT
+E (9032) wifi:Set status to INIT
+E (9057) wifi:Set status to INIT
+E (9082) wifi:Set status to INIT
+E (9107) wifi:Set status to INIT
+E (9134) wifi:Set status to INIT
+E (9159) wifi:Set status to INIT
+E (9185) wifi:Set status to INIT
+E (9210) wifi:Set status to INIT
+E (9237) wifi:Set status to INIT
+E (9262) wifi:Set status to INIT
+E (9287) wifi:Set status to INIT
+E (9312) wifi:Set status to INIT
+E (9339) wifi:Set status to INIT
+E (9364) wifi:Set status to INIT
+E (9389) wifi:Set status to INIT
+E (9415) wifi:Set status to INIT
+E (9442) wifi:Set status to INIT
+E (9467) wifi:Set status to INIT
+E (9493) wifi:Set status to INIT
+E (9518) wifi:Set status to INIT
+E (9544) wifi:Set status to INIT
+E (9569) wifi:Set status to INIT
+E (9594) wifi:Set status to INIT
+E (9619) wifi:Set status to INIT
+E (9646) wifi:Set status to INIT
+E (9671) wifi:Set status to INIT
+E (9697) wifi:Set status to INIT
+E (9722) wifi:Set status to INIT
+E (9749) wifi:Set status to INIT
+E (9774) wifi:Set status to INIT
+E (9799) wifi:Set status to INIT
+E (9824) wifi:Set status to INIT
+E (9851) wifi:Set status to INIT
+E (9876) wifi:Set status to INIT
+E (9901) wifi:Set status to INIT
+E (9927) wifi:Set status to INIT
+E (9954) wifi:Set status to INIT
+E (9979) wifi:Set status to INIT
+E (10004) wifi:Set status to INIT
+E (10029) wifi:Set status to INIT
+E (10056) wifi:Set status to INIT
+E (10081) wifi:Set status to INIT
+E (10106) wifi:Set status to INIT
+E (10131) wifi:Set status to INIT
+E (10158) wifi:Set status to INIT
+E (10183) wifi:Set status to INIT
+E (10209) wifi:Set status to INIT
+E (10234) wifi:Set status to INIT
+E (10261) wifi:Set status to INIT
+E (10286) wifi:Set status to INIT
+E (10311) wifi:Set status to INIT
+E (10336) wifi:Set status to INIT
+E (10363) wifi:Set status to INIT
+E (10388) wifi:Set status to INIT
+E (10413) wifi:Set status to INIT
+E (10439) wifi:Set status to INIT
+E (10466) wifi:Set status to INIT
+E (10491) wifi:Set status to INIT
+E (10516) wifi:Set status to INIT
+E (10541) wifi:Set status to INIT
+E (10568) wifi:Set status to INIT
+E (10593) wifi:Set status to INIT
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:12784
+load:0x40080400,len:3032
+entry 0x400805e4
+Espere conectando...E (620) wifi:Set status to INIT
+E (645) wifi:Set status to INIT
+E (670) wifi:Set status to INIT
+E (695) wifi:Set status to INIT
+E (720) wifi:Set status to INIT
+E (746) wifi:Set status to INIT
+E (771) wifi:Set status to INIT
+E (797) wifi:Set status to INIT
+E (822) wifi:Set status to INIT
+E (846) wifi:Set status to INIT
+E (871) wifi:Set status to INIT
+E (896) wifi:Set status to INIT
+E (922) wifi:Set status to INIT
+E (947) wifi:Set status to INIT
+E (972) wifi:Set status to INIT
+E (997) wifi:Set status to INIT
+E (1022) wifi:Set status to INIT
+E (1048) wifi:Set status to INIT
+E (1073) wifi:Set status to INIT
+E (1098) wifi:Set status to INIT
+.E (1123) wifi:Set status to INIT
+E (1149) wifi:Set status to INIT
+E (1174) wifi:Set status to INIT
+E (1199) wifi:Set status to INIT
+E (1224) wifi:Set status to INIT
+E (1250) wifi:Set status to INIT
+E (1275) wifi:Set status to INIT
+E (1300) wifi:Set status to INIT
+E (1326) wifi:Set status to INIT
+E (1353) wifi:Set status to INIT
+E (1378) wifi:Set status to INIT
+E (1403) wifi:Set status to INIT
+E (1428) wifi:Set status to INIT
+E (1455) wifi:Set status to INIT
+E (1480) wifi:Set status to INIT
+E (1506) wifi:Set status to INIT
+E (1531) wifi:Set status to INIT
+E (1557) wifi:Set status to INIT
+E (1583) wifi:Set status to INIT
+.E (1608) wifi:Set status to INIT
+E (1633) wifi:Set status to INIT
+E (1660) wifi:Set status to INIT
+E (1685) wifi:Set status to INIT
+E (1710) wifi:Set status to INIT
+E (1735) wifi:Set status to INIT
+E (1762) wifi:Set status to INIT
+E (1787) wifi:Set status to INIT
+E (1812) wifi:Set status to INIT
+E (1837) wifi:Set status to INIT
+E (1865) wifi:Set status to INIT
+E (1890) wifi:Set status to INIT
+E (1915) wifi:Set status to INIT
+E (1940) wifi:Set status to INIT
+E (1967) wifi:Set status to INIT
+E (1992) wifi:Set status to INIT
+E (2017) wifi:Set status to INIT
+E (2043) wifi:Set status to INIT
+E (2069) wifi:Set status to INIT
+E (2095) wifi:Set status to INIT
+.E (2120) wifi:Set status to INIT
+E (2145) wifi:Set status to INIT
+E (2172) wifi:Set status to INIT
+E (2197) wifi:Set status to INIT
+E (2222) wifi:Set status to INIT
+E (2247) wifi:Set status to INIT
+E (2274) wifi:Set status to INIT
+E (2299) wifi:Set status to INIT
+E (2325) wifi:Set status to INIT
+E (2350) wifi:Set status to INIT
+E (2377) wifi:Set status to INIT
+E (2402) wifi:Set status to INIT
+E (2427) wifi:Set status to INIT
+E (2452) wifi:Set status to INIT
+E (2479) wifi:Set status to INIT
+E (2504) wifi:Set status to INIT
+E (2529) wifi:Set status to INIT
+E (2554) wifi:Set status to INIT
+E (2581) wifi:Set status to INIT
+.E (2607) wifi:Set status to INIT
+E (2632) wifi:Set status to INIT
+E (2657) wifi:Set status to INIT
+E (2684) wifi:Set status to INIT
+E (2709) wifi:Set status to INIT
+E (2734) wifi:Set status to INIT
+E (2759) wifi:Set status to INIT
+E (2786) wifi:Set status to INIT
+E (2811) wifi:Set status to INIT
+E (2837) wifi:Set status to INIT
+E (2862) wifi:Set status to INIT
+E (2889) wifi:Set status to INIT
+E (2914) wifi:Set status to INIT
+E (2939) wifi:Set status to INIT
+E (2964) wifi:Set status to INIT
+E (2991) wifi:Set status to INIT
+E (3016) wifi:Set status to INIT
+E (3041) wifi:Set status to INIT
+E (3066) wifi:Set status to INIT
+E (3093) wifi:Set status to INIT
+.E (3119) wifi:Set status to INIT
+E (3144) wifi:Set status to INIT
+E (3169) wifi:Set status to INIT
+E (3196) wifi:Set status to INIT
+E (3221) wifi:Set status to INIT
+E (3246) wifi:Set status to INIT
+E (3271) wifi:Set status to INIT
+E (3298) wifi:Set status to INIT
+E (3323) wifi:Set status to INIT
+E (3349) wifi:Set status to INIT
+E (3374) wifi:Set status to INIT
+E (3401) wifi:Set status to INIT
+E (3426) wifi:Set status to INIT
+E (3451) wifi:Set status to INIT
+E (3476) wifi:Set status to INIT
+E (3503) wifi:Set status to INIT
+E (3528) wifi:Set status to INIT
+E (3553) wifi:Set status to INIT
+E (3578) wifi:Set status to INIT
+........
+ Conectado Correctamente
+IP => 192.168.100.105 
+ ***ENVIANDO CREDENCIALES AL SERVIDOR***
+{"email":"test1@test.com","password":"123456"}
+200
+{
+  "usuario": {
+    "nombre": "test1",
+    "email": "test1@test.com",
+    "uid": "62ed9fc1013960dbf4864013"
+  }
+} 
+ ###### ENVIANDO UID ######
+{"uid":"62ed9fc1013960dbf4864013"}
+200
+{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013"
+}Intentando Conectar al Broker MQTT (EMQX)
+
+CONECTADO AL BROKER MQTT
+Subscrito: 62ed9fc1013960dbf4864013/+/sdata
+"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 98,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 35,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 82,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 20,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 65,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 31,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 51,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 32,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 8,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 17,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 80,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 90,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 74,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 5,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 4,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 66,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 81,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 94,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 12,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 9,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 40,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 91,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 25,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 94,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 49,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 25,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 90,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 93,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 82,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 55,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 74,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 97,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 50,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 72,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 58,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 45,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 71,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 64,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 90,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 72,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 78,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 58,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 37,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 85,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 20,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 61,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 68,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 22,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 43,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 94,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 34,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 49,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 43,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 73,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 93,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 97,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 26,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 94,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 54,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 76,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 65,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 58,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 21,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 7,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 53,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 65,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 16,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 37,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 67,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 9,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 79,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 75,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 19,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 84,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 67,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 93,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 35,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 11,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 47,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 23,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 81,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 21,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 77,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 88,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 74,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 2,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 93,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 16,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 62,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 77,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 88,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 82,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 61,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 87,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 4,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 41,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 46,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 7,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 43,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 14,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 23,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 93,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 61,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 72,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 43,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 30,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 89,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 58,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 40,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 64,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 96,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 64,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 73,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 96,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 48,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 63,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 24,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 39,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 65,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 67,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 58,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 59,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 96,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 96,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 74,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 26,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 89,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 26,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 86,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 18,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 32,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 57,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 43,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 55,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 50,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 30,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 8,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 67,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 75,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 23,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 35,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 47,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 83,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 30,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 65,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 87,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 36,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 29,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 13,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 3,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 53,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 81,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 18,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 27,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 75,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 34,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 73,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 78,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 57,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 30,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 72,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 48,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 66,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 60,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 16,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 33,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 5,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 70,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 20,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 45,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 53,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 60,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 71,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 36,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 24,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 87,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 51,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 58,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 78,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 67,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 83,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 76,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 33,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 96,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 71,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 29,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 89,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 47,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 27,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 95,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 74,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 10,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 11,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 25,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 7,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 52,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 39,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 52,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 45,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 29,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 72,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 41,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 15,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 64,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 84,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 82,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 63,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 80,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 79,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 12,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 89,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 76,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 50,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 55,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 82,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 68,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 14,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 29,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 92,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 78,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#""62ed9fc1013960dbf4864013/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 72,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 60,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 63,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 88,
+        "save": 0
+      }
+    }
+  ]
+}

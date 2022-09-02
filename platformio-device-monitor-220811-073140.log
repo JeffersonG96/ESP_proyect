@@ -1,0 +1,366 @@
+Espere conectando....
+ Conectado Correctamente
+IP => 192.168.100.105 
+ ***ENVIANDO CREDENCIALES AL SERVIDOR***
+{"email":"test1@test.com","password":"123456"}
+200
+{
+  "usuario": {
+    "nombre": "test1",
+    "email": "test1@test.com",
+    "uid": "62ed9fc1013960dbf4864013"
+  }
+}{
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 63,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 48,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 95,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 6,
+        "save": 0
+      }
+    }
+  ]
+} 
+ ###### ENVIANDO UID ######
+{"uid":"62ed9fc1013960dbf4864013"}
+200
+{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013"
+}Intentando Conectar al Broker MQTT (EMQX)
+
+CONECTADO AL BROKER MQTT
+Subscrito: 62ed9fc1013960dbf4864013/+/sdata
+"62ed9fc1013960dbf4864013/#""62f43adec4b854a7f7b6bf94/#""62ed9fc1013960dbf4864013/#""62f43adec4b854a7f7b6bf94/#""62ed9fc1013960dbf4864013/#""62f43adec4b854a7f7b6bf94/#""62ed9fc1013960dbf4864013/#""62f43adec4b854a7f7b6bf94/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 16,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 94,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 79,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 8,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62f43adec4b854a7f7b6bf94/#""62ed9fc1013960dbf4864013/#""62f43adec4b854a7f7b6bf94/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 9,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 44,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 64,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 38,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62f43adec4b854a7f7b6bf94/#""62ed9fc1013960dbf4864013/#""62f43adec4b854a7f7b6bf94/#""62ed9fc1013960dbf4864013/#""62f43adec4b854a7f7b6bf94/#""62ed9fc1013960dbf4864013/#""62f43adec4b854a7f7b6bf94/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 97,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 73,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 37,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 70,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62f43adec4b854a7f7b6bf94/#""62ed9fc1013960dbf4864013/#""62f43adec4b854a7f7b6bf94/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 93,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 78,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 52,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 44,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62f43adec4b854a7f7b6bf94/#""62ed9fc1013960dbf4864013/#""62f43adec4b854a7f7b6bf94/#""62ed9fc1013960dbf4864013/#""62f43adec4b854a7f7b6bf94/#""62ed9fc1013960dbf4864013/#""62f43adec4b854a7f7b6bf94/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 69,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 32,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 10,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 18,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62f43adec4b854a7f7b6bf94/#""62ed9fc1013960dbf4864013/#""62f43adec4b854a7f7b6bf94/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 32,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 55,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 16,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 29,
+        "save": 0
+      }
+    }
+  ]
+}"62ed9fc1013960dbf4864013/#""62f43adec4b854a7f7b6bf94/#""62ed9fc1013960dbf4864013/#""62f43adec4b854a7f7b6bf94/#""62ed9fc1013960dbf4864013/#""62f43adec4b854a7f7b6bf94/#""62ed9fc1013960dbf4864013/#""62f43adec4b854a7f7b6bf94/#"{
+  "ok": true,
+  "username": "rx8uX2i13ju2CS9",
+  "password": "EhZeiQ5UXnfsHnU",
+  "publish": [
+    "62ed9fc1013960dbf4864013/#",
+    "62f43adec4b854a7f7b6bf94/#"
+  ],
+  "uid": "62ed9fc1013960dbf4864013",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 8,
+      "last": {
+        "value": 12,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 43,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 12,
+      "last": {
+        "value": 81,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 14,
+      "last": {
+        "value": 83,
+        "save": 0
+      }
+    }
+  ]
+}

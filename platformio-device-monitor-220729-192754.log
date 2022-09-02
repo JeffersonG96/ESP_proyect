@@ -1,0 +1,80 @@
+
+[2J[HEspere conectando....
+ Conectado Correctamente
+IP => 192.168.100.105 
+ ***Obteniendo Credenciales***
+{"email":"test1@test.com","password":"123456"}
+200
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  }
+} 
+ ***Obteniendo Credenciales***
+{"email":"test1@test.com","password":"123456"}
+-11
+##### ERROR EN LOS DATOS INGRESADOS #####
+
+Error en obtener credenciales para MQTT
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:12784
+load:0x40080400,len:3032
+entry 0x400805e4
+
+[2J[HEspere conectando........
+ Conectado Correctamente
+IP => 192.168.100.105 
+ ***Obteniendo Credenciales***
+{"email":"test1@test.com","password":"123456"}
+200
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  }
+} 
+ ***Obteniendo Credenciales***
+{"email":"test1@test.com","password":"123456"}
+200
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  }
+}Intentando Conectar al Broker MQTT (EMQX)
+No se logro conectar al Broker MQTT62d9c65473a36709d8a9326f/temp/sdata
+62d9c65473a36709d8a9326f/res/sdata
+ 
+ ***Obteniendo Credenciales***
+{"email":"test1@test.com","password":"123456"}
+200
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  }
+}Intentando Conectar al Broker MQTT (EMQX)
+No se logro conectar al Broker MQTT62d9c65473a36709d8a9326f/BPM/sdata
+62d9c65473a36709d8a9326f/res/sdata
+ 
+ ***Obteniendo Credenciales***
+{"email":"test1@test.com","password":"123456"}
+200
+{
+  "usuario": {
+    "nombre": "JGE",
+    "email": "test1@test.com",
+    "uid": "62d9c65473a36709d8a9326f"
+  }
+}Intentando Conectar al Broker MQTT (EMQX)

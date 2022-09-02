@@ -1,0 +1,25 @@
+Esp�re conectando........
+ Conectado Correctamente
+IP => 192.168.100.105 
+ ***ENVIANDO CREDENCIALES AL SERVIDOR***
+{"email":"test1@test.com","password":"123456"}
+200
+{
+  "usuario": {
+    "nombre": "test1",
+    "email": "test1@test.com",
+    "uid": "63064bf73a92cc66f1aff10a"
+  }
+} 
+ ###### ENVIANDO UID ######
+{"uid":"63064bf73a92cc66f1aff10a"}
+200
+{
+  "ok": true,
+  "username": "muwZAfilTZtns5H",
+  "password": "PnwaPlflBcLZ9Ge",
+  "uid": "63064bf73a92cc66f1aff10a"
+}Intentando Conectar al Broker MQTT (EMQX)
+
+CONECTADO AL BROKER MQTT
+Subscrito: 63064bf73a92cc66f1aff10a/+/sdata
