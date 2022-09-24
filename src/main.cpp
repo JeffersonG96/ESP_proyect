@@ -17,7 +17,9 @@ TaskHandle_t Task1;
 
 Adafruit_MPU6050 mpu;
 //variable para enviar data entre nucleo
-bool ready_send_data_MPU = false;
+int ready_send_data_MPU = 0;
+int send_counter_mpu = 0;
+long time_last_mpu =0;
 
 //variable para edge//
 float features[EI_CLASSIFIER_DSP_INPUT_FRAME_SIZE];
@@ -43,6 +45,8 @@ long lastReconnect;
 WiFiClient espClient;
 PubSubClient client(espClient);
 
+long varsLastS[20];
+
 DynamicJsonDocument mqttDataDoc(1024);
 StaticJsonDocument<512> dataServer;
 
@@ -57,7 +61,7 @@ void sendData();
 
 //LOOP2
 void loop2(void *parameter){
-for (;;){
+  for (;;){
 
   sensors_event_t a, g, temp;
   mpu.getEvent(&a, &g, &temp);
@@ -87,11 +91,11 @@ for (;;){
         ei_printf(" %s: %.5f\n", result.classification[ix].label, result.classification[ix].value);
         if(result.classification[ix].value > 0.98){
           if(result.classification[ix].label == "fall"){
-            ready_send_data_MPU = true;
-            delay(4000);
+            ready_send_data_MPU = 1;
           }
           if(result.classification[ix].label == "AVD"){
             Serial.println("*****-AVD-****");
+            // ready_send_data_MPU = false;
           }
         }
     }
@@ -188,49 +192,61 @@ void procesarSensores(){
 
 
 
-  //*status
-  int status = random(1,100);
+  //*status ENVIAR ESTABILIDAD DEL USUARIO
+if(ready_send_data_MPU == 0){
   mqttDataDoc["variables"][3]["variableName"] = "status";
   mqttDataDoc["variables"][3]["frecuencia"] = 10; //*frecuencia a enviar el dato 
-  mqttDataDoc["variables"][3]["last"]["value"] = status;
-    dif = status - prev_temp;
-  if (dif < 0) {dif *= -1;}
+  mqttDataDoc["variables"][3]["last"]["value"] = "Normal";
+  mqttDataDoc["variables"][3]["last"]["save"] = 1;
+    mqttDataDoc["variables"][3]["last"]["alarm"] = 0;
+  time_last_mpu = millis();
+  digitalWrite(led,LOW);
+  send_counter_mpu = 0;
+}
 
-  if (dif >= 20) {
-    mqttDataDoc["variables"][3]["last"]["save"] = 0;
-  }else{
-    mqttDataDoc["variables"][3]["last"]["save"] = 0;
+if (ready_send_data_MPU == 1){
+  long now = millis();
+  mqttDataDoc["variables"][3]["variableName"] = "status";
+  mqttDataDoc["variables"][3]["frecuencia"] = 30; //*frecuencia al enviar el dato 
+  mqttDataDoc["variables"][3]["last"]["value"] = "En el piso";
+
+  int frec = mqttDataDoc["variables"][3]["frecuencia"];
+  if(now - time_last_mpu > frec*1000){
+  ready_send_data_MPU = 0;
+  send_counter_mpu = 0;
   }
-  prev_temp = status;
-
+  if(send_counter_mpu == 0){
+  mqttDataDoc["variables"][3]["last"]["alarm"] = 1;
+  mqttDataDoc["variables"][3]["last"]["save"] = 1;
+                //100 - 30 = 70
+  varsLastS[3] = millis() - frec*1000;
+  send_counter_mpu = 1;
+  digitalWrite(led,HIGH);
+  }
+} 
 
 }
 
-long varsLastS[20];
 void sendData(){
 
   long now = millis();
 
   for(int i = 0; i<mqttDataDoc["variables"].size(); ++i){
 
-    int frec = mqttDataDoc["variables"][i]["frecuencia"];
-
+  int frec = mqttDataDoc["variables"][i]["frecuencia"];
+     //110 - 100 = 10
   if((now - varsLastS[i]) > frec * 1000){
    varsLastS[i] = millis();
 
   String uid = mqttDataDoc["uid"];
   String variableName =mqttDataDoc["variables"][i]["variableName"];
   String topic = uid +"/" + variableName + "/sdata";
-  // Serial.println(topic);
 
   String toSend = "";
   serializeJson(mqttDataDoc["variables"][i]["last"], toSend);
-
   client.publish(topic.c_str(),toSend.c_str());
 
-  }
-  }
-
+  } }
 }
 
 
@@ -411,6 +427,7 @@ bool reconnect(){
   String uid = usuario["uid"];
   String topic = uid + "/+/sdata";
   String dId = "device_" + uid;
+
 
   if(client.connect(dId.c_str(), userName, password)){
    Serial.println("");
