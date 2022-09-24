@@ -1,0 +1,1655 @@
+Espere conectando....
+ Conectado Correctamente
+IP => 192.168.100.105 
+ ***ENVIANDO CREDENCIALES AL SERVIDOR***
+{"email":"test1@test.com","password":"123456"}
+200
+{
+  "ok": true,
+  "usuario": {
+    "nombre": "test1",
+    "email": "test1@test.com",
+    "uid": "63064bf73a92cc66f1aff10a"
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MzA2NGJmNzNhOTJjYzY2ZjFhZmYxMGEiLCJpYXQiOjE2NjM5NzU0NTgsImV4cCI6MTY2NDU4MDI1OH0.7fqXivNxFtsFv9gxifUG3dD3S-mF2Qj4xGUsx-pBYeA"
+}Error al iniciar IMU
+Features (60 ms.): 0.056054 -2.338186 4.000758 -1.505655 2.485146 2.401419 4.212078 1.798311 1.576861 2.400893 4.211480 1.404569 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.340052
+(DSP: 60 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.340
+ 
+ ###### ENVIANDO UID ######Features (59 ms.): 0.055861 -2.378077 4.135956 -1.512161 2.485276 2.401509 4.212598 1.798416 1.577717 2.400384 4.211607 1.405205 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.339880
+(DSP: 59 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.340
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MzA2NGJmNzNhOTJjYzY2ZjFhZmYxMGEiLCJpYXQiOjE2NjM5NzU0NTgsImV4cCI6MTY2NDU4MDI1OH0.7fqXivNxFtsFv9gxifUG3dD3S-mF2Qj4xGUsx-pBYeA200
+Features (59 ms.): 0.056073 -2.376781 4.136711 -1.488338 2.484132 2.401594 4.214127 1.798888 1.578810 2.400994 4.210714 1.404673 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.339266
+(DSP: 59 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.339
+Features (61 ms.): 0.055752 -2.353516 4.032784 -1.506188 2.485045 2.401452 4.210614 1.797606 1.578148 2.401209 4.210328 1.403329 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.339779
+(DSP: 61 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.340
+{
+  "ok": true,
+  "username": "muwZAfilTZtns5H",
+  "password": "PnwaPlflBcLZ9Ge",
+  "uid": "63064bf73a92cc66f1aff10a"
+}Intentando Conectar al Broker MQTT (EMQX)
+
+CONECTADO AL BROKER MQTT
+Subscrito: 63064bf73a92cc66f1aff10a/+/sdata
+Features (60 ms.): 0.055191 -2.368956 4.164083 -1.480903 2.484451 2.400960 4.209933 1.798331 1.578527 2.400392 4.212458 1.405569 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.339964
+(DSP: 60 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.340
+Features (60 ms.): 0.055387 -2.387766 4.124780 -1.532345 2.483700 2.401423 4.213645 1.798728 1.577539 2.401183 4.212444 1.404072 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.340136
+(DSP: 60 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.340
+Features (62 ms.): 0.055219 -2.376939 4.162200 -1.508991 2.484084 2.401343 4.213135 1.798872 1.578490 2.401135 4.214454 1.404346 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.339932
+(DSP: 62 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.340
+Features (62 ms.): 0.055452 -2.369790 4.119236 -1.502671 2.483863 2.400754 4.210204 1.798316 1.578907 2.401398 4.215065 1.405208 
+Running neural network...
+Predictions (time: 1 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.339615
+(DSP: 62 ms., Classification: 1 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.340
+Features (62 ms.): 0.055095 -2.401741 4.207399 -1.517518 2.484137 2.400967 4.211399 1.799228 1.579806 2.400664 4.211099 1.405186 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.339544
+(DSP: 62 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.340
+Features (62 ms.): 0.054048 -2.354941 4.109009 -1.520386 2.484969 2.401119 4.210466 1.798297 1.579369 2.400739 4.209602 1.405567 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.340441
+(DSP: 62 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.340
+Features (63 ms.): 0.053264 -2.356182 4.074813 -1.566201 2.501677 2.401073 4.200735 1.799595 1.550991 2.392121 4.216502 1.402858 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.352483
+(DSP: 63 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.352
+Features (64 ms.): 0.071668 -2.344491 3.935598 -1.342363 2.520167 2.401125 4.208712 1.809902 1.518508 2.401455 4.217692 1.372768 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.354262
+(DSP: 64 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.354
+Features (61 ms.): 0.076082 -2.383986 4.136574 -1.277915 2.522293 2.400968 4.209271 1.810995 1.516060 2.400001 4.211389 1.371400 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.352564
+(DSP: 61 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.353
+Features (61 ms.): 0.077088 -2.356100 4.094194 -1.198305 2.515795 2.401868 4.213308 1.809132 1.526386 2.399263 4.207282 1.376559 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.347486
+(DSP: 61 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.347
+Features (64 ms.): 0.075610 -2.380625 4.139233 -1.238064 2.516820 2.401807 4.212660 1.809503 1.524647 2.400088 4.209499 1.375383 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.349165
+(DSP: 64 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.349
+Features (60 ms.): 0.074129 -2.401573 4.183654 -1.280615 2.517927 2.401583 4.211656 1.809572 1.523970 2.400375 4.209913 1.374632 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.350456
+(DSP: 60 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.350
+Features (60 ms.): 0.073975 -2.370555 4.099920 -1.268659 2.519119 2.401026 4.209698 1.809875 1.523546 2.400455 4.209232 1.374469 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.350816
+(DSP: 60 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.351
+Features (63 ms.): 0.072744 -2.386392 4.172631 -1.269933 2.518531 2.402001 4.214867 1.810533 1.521996 2.399847 4.207534 1.372902 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.352129
+(DSP: 63 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.352
+Features (61 ms.): 0.072751 -2.405418 4.236229 -1.277611 2.519055 2.400813 4.210975 1.811105 1.522150 2.402846 4.214113 1.371129 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.352112
+(DSP: 61 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.352
+Features (58 ms.): 0.072532 -2.397829 4.252053 -1.252421 2.520085 2.399847 4.205970 1.811091 1.520654 2.405532 4.229390 1.371088 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.352901
+(DSP: 58 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.353
+Features (61 ms.): 0.073563 -2.366468 4.073235 -1.276552 2.519375 2.400930 4.212215 1.811585 1.520504 2.401595 4.213565 1.372114 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.352240
+(DSP: 61 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.352
+Features (57 ms.): 0.073835 -2.380601 4.132757 -1.261701 2.519263 2.401910 4.212569 1.809739 1.522511 2.400669 4.213721 1.375247 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.351305
+(DSP: 57 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.351
+Features (61 ms.): 0.076055 -2.328374 4.000533 -1.236208 2.531416 2.402824 4.207985 1.810477 1.500412 2.388716 4.205159 1.373956 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.359313
+(DSP: 61 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.359
+Features (70 ms.): 0.078888 -2.369489 4.093153 -1.218921 2.536755 2.400791 4.210714 1.816824 1.491833 2.403299 4.217286 1.354605 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.361285
+(DSP: 70 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.361
+Features (57 ms.): 0.082102 -2.389096 4.171120 -1.173143 2.535362 2.400771 4.209908 1.816102 1.493989 2.401132 4.208534 1.355118 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.358307
+(DSP: 57 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.358
+Features (63 ms.): 0.082267 -2.380749 4.161267 -1.163489 2.534519 2.401362 4.212759 1.816114 1.493961 2.403352 4.218675 1.355514 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.358136
+(DSP: 63 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.358
+Features (60 ms.): 0.081523 -2.412109 4.243243 -1.184116 2.535352 2.401328 4.212894 1.816622 1.495647 2.400414 4.203637 1.354775 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.358038
+(DSP: 60 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.358
+Features (63 ms.): 0.082707 -2.368510 4.100368 -1.146971 2.535866 2.401145 4.210962 1.816069 1.495505 2.401461 4.211531 1.357532 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.357394
+(DSP: 63 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.357
+Features (62 ms.): 0.081655 -2.394465 4.261479 -1.139052 2.535227 2.401162 4.212302 1.816388 1.495117 2.401270 4.213866 1.358285 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.358145
+(DSP: 62 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.358
+Features (63 ms.): 0.082652 -2.378540 4.137084 -1.150014 2.535534 2.400573 4.209852 1.816459 1.495511 2.402097 4.212335 1.355804 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.357395
+(DSP: 63 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.357
+Features (63 ms.): 0.082527 -2.388318 4.137984 -1.178965 2.535339 2.401067 4.211327 1.816264 1.494956 2.401684 4.214404 1.357434 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.357668
+(DSP: 63 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.358
+Features (63 ms.): 0.082633 -2.388326 4.151373 -1.159175 2.535320 2.401458 4.212595 1.816064 1.496925 2.399509 4.205703 1.358867 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.356847
+(DSP: 63 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.357
+Features (64 ms.): 0.082765 -2.392078 4.196723 -1.155662 2.534787 2.400509 4.211145 1.817087 1.496543 2.400418 4.208011 1.357440 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.356861
+(DSP: 64 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.357
+Features (63 ms.): 0.082295 -2.391518 4.170991 -1.165505 2.535995 2.401119 4.211023 1.816242 1.497594 2.400715 4.209512 1.358952 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.356868
+(DSP: 63 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.357
+Features (65 ms.): 0.082057 -2.402334 4.241920 -1.155907 2.535413 2.400769 4.210493 1.816429 1.496194 2.401382 4.213114 1.358453 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.357498
+(DSP: 65 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.357
+Features (65 ms.): 0.082564 -2.377791 4.115121 -1.154745 2.535486 2.400849 4.210251 1.816204 1.497487 2.400954 4.211941 1.359502 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.356692
+(DSP: 65 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.357
+Features (60 ms.): 0.083644 -2.313262 3.837287 -1.147453 2.536663 2.399387 4.204428 1.816886 1.497483 2.400835 4.205838 1.357845 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.356123
+(DSP: 60 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.356
+Features (60 ms.): 3.078045 -0.087658 -1.523044 1.434065 3.385978 0.343033 -0.955956 1.911337 2.275149 -0.733991 -0.205586 1.734804 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): -0.528982
+(DSP: 60 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: -0.529
+Features (60 ms.): 2.110188 0.119876 -0.422960 1.268082 1.909851 -0.073883 -1.326623 1.050289 2.552949 1.916165 2.947935 1.767980 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	0.999999
+fall:	0.000001
+Anomaly score (time: 0 ms.): -0.666109
+(DSP: 60 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: -0.666
+Features (60 ms.): 0.948440 -1.356406 1.421330 0.991528 1.045250 0.001486 -1.131849 0.947132 3.075656 1.822622 2.389367 1.790999 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): -0.145090
+(DSP: 60 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: -0.145
+Features (64 ms.): 1.924426 -1.969455 2.783498 1.397648 1.574892 0.203201 -0.222494 1.495024 2.349867 1.321749 1.347078 1.557019 
+Running neural network...
+Predictions (time: 1 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): -0.519935
+(DSP: 64 ms., Classification: 1 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: -0.520
+Features (60 ms.): 1.966687 -0.980987 1.574236 1.772098 1.707255 0.465504 -0.943992 1.128336 2.447600 1.118656 1.258637 1.890153 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	0.981079
+fall:	0.018921
+Anomaly score (time: 0 ms.): -0.584046
+(DSP: 60 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 0.98108
+*****-AVD-****
+ fall: 0.01892
+    anomaly score: -0.584
+Features (62 ms.): 1.859117 0.204848 -1.362443 1.379639 1.912536 -0.262854 -1.524188 1.218241 2.793968 1.955599 3.079176 1.924926 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): -0.770810
+(DSP: 62 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: -0.771
+Features (63 ms.): 0.695240 0.176191 -1.045463 -0.014308 1.629432 0.199630 -1.163621 0.983124 2.992892 2.110614 3.325197 1.880067 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): -0.239392
+(DSP: 63 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: -0.239
+Features (64 ms.): 1.646513 1.147128 -0.242653 1.506459 0.956952 -0.733071 0.646814 0.961611 2.756633 1.336139 1.414519 1.831505 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): -0.502088
+(DSP: 64 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: -0.502
+Features (63 ms.): 0.575419 -1.305879 1.258549 0.104725 1.371019 1.142274 -0.192024 1.295963 2.971651 2.308432 4.046487 2.015623 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): -0.163014
+(DSP: 63 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: -0.163
+Features (61 ms.): 1.431894 -0.821200 -0.473479 0.485700 0.444341 -0.723083 -0.324635 0.234968 3.087784 1.811508 2.451357 1.803366 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): -0.012992
+(DSP: 61 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: -0.013
+Features (60 ms.): 5.550150 -0.166019 -0.900971 2.311251 7.807770 -0.312208 -0.864993 2.259167 8.390306 0.096431 -1.664518 2.301100 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	0.854073
+fall:	0.145927
+Anomaly score (time: 0 ms.): -0.154170
+(DSP: 60 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 0.85407
+ fall: 0.14593
+    anomaly score: -0.154
+Features (60 ms.): 3.396098 0.341590 -0.937331 1.873616 2.519369 -0.573986 -0.545987 1.351794 3.150433 0.343448 -0.722996 1.845912 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	0.745190
+fall:	0.254810
+Anomaly score (time: 0 ms.): -1.388052
+(DSP: 60 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 0.74519
+ fall: 0.25481
+    anomaly score: -1.388
+Features (58 ms.): 1.711228 -2.375754 4.284848 1.535982 1.278895 1.623590 1.873830 1.044488 2.267060 2.190535 3.845812 1.779675 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): -0.620983
+(DSP: 58 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: -0.621
+Features (62 ms.): 1.761790 -2.401127 4.186899 1.482088 1.322672 2.309058 3.955796 1.249734 2.078640 2.399641 4.184828 1.629015 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): -0.494209
+(DSP: 62 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: -0.494
+Features (61 ms.): 1.774026 -2.400318 4.212831 1.508380 1.336353 2.396191 4.150043 1.231372 2.040481 2.402688 4.218076 1.626110 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): -0.466656
+(DSP: 61 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: -0.467
+Features (57 ms.): 1.643260 -0.631442 0.119032 1.469741 2.631348 1.868680 2.507940 1.587667 2.446946 0.441774 -0.853049 1.583099 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	0.999337
+fall:	0.000662
+Anomaly score (time: 0 ms.): -0.826521
+(DSP: 57 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 0.99934
+*****-AVD-****
+ fall: 0.00066
+    anomaly score: -0.827
+Features (61 ms.): 1.315928 0.351642 -0.463799 1.065868 2.475773 0.675359 -0.359778 1.763263 2.755425 0.877707 0.727855 1.488539 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	0.997960
+fall:	0.002040
+Anomaly score (time: 0 ms.): -0.800349
+(DSP: 61 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 0.99796
+*****-AVD-****
+ fall: 0.00204
+    anomaly score: -0.800
+Features (57 ms.): 0.648678 0.511091 0.478363 0.605951 1.456366 2.318756 3.860391 1.275040 2.604484 2.324940 3.851546 1.756755 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): -0.340250
+(DSP: 57 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: -0.340
+Features (61 ms.): 0.333457 1.584249 2.813422 0.196181 1.486497 2.364761 4.171960 1.377515 2.571787 2.395172 4.146677 1.804233 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	0.999999
+fall:	0.000001
+Anomaly score (time: 0 ms.): -0.114113
+(DSP: 61 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: -0.114
+Features (58 ms.): 0.219692 1.217076 2.451911 -0.155273 1.489900 2.377718 4.043066 1.307633 2.583224 2.389319 4.197149 1.841231 
+Running neural network...
+Predictions (time: 3 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): -0.027780
+(DSP: 58 ms., Classification: 3 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: -0.028
+Features (59 ms.): 0.165942 2.175905 3.670227 -0.523726 1.478874 2.392188 4.164792 1.336339 2.572928 2.401104 4.223551 1.832039 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	0.999980
+fall:	0.000020
+Anomaly score (time: 0 ms.): 0.012703
+(DSP: 59 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 0.99998
+*****-AVD-****
+ fall: 0.00002
+    anomaly score: 0.013
+Features (61 ms.): 0.145953 2.286092 3.945554 -0.662549 1.484764 2.405870 4.237831 1.355077 2.571744 2.400138 4.212203 1.830078 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	0.999941
+fall:	0.000059
+Anomaly score (time: 0 ms.): 0.027304
+(DSP: 61 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 0.99994
+*****-AVD-****
+ fall: 0.00006
+    anomaly score: 0.027
+Features (57 ms.): 0.140901 1.973574 2.872974 -0.806069 1.509440 2.396570 4.176654 1.356347 2.575221 2.391246 4.162554 1.819082 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.029998
+(DSP: 57 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.030
+[ 71877][E][Wire.cpp:378] requestFrom(): i2cWriteReadNonStop returned Error 263
+Features (64 ms.): 2.523587 -0.866372 -0.194838 1.642732 4.442209 0.581672 -0.957358 1.991245 3.019358 0.523731 -0.871524 1.886548 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	0.591911
+fall:	0.408089
+Anomaly score (time: 0 ms.): -0.809538
+(DSP: 64 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 0.59191
+ fall: 0.40809
+    anomaly score: -0.810
+Features (60 ms.): 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	nan
+fall:	nan
+Anomaly score (time: 1 ms.): 1.489825
+(DSP: 60 ms., Classification: 0 ms., Anomaly: 1 ms.): 
+ AVD: nan
+ fall: nan
+    anomaly score: 1.490
+Features (62 ms.): 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	nan
+fall:	nan
+Anomaly score (time: 0 ms.): 1.489825
+(DSP: 62 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: nan
+ fall: nan
+    anomaly score: 1.490
+Features (57 ms.): 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	nan
+fall:	nan
+Anomaly score (time: 0 ms.): 1.489825
+(DSP: 57 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: nan
+ fall: nan
+    anomaly score: 1.490
+Features (60 ms.): 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	nan
+fall:	nan
+Anomaly score (time: 0 ms.): 1.489825
+(DSP: 60 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: nan
+ fall: nan
+    anomaly score: 1.490
+Features (60 ms.): 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	nan
+fall:	nan
+Anomaly score (time: 0 ms.): 1.489825
+(DSP: 60 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: nan
+ fall: nan
+    anomaly score: 1.490
+Features (60 ms.): 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	nan
+fall:	nan
+Anomaly score (time: 2 ms.): 1.489825
+(DSP: 60 ms., Classification: 0 ms., Anomaly: 2 ms.): 
+ AVD: nan
+ fall: nan
+    anomaly score: 1.490
+Features (60 ms.): 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	nan
+fall:	nan
+Anomaly score (time: 0 ms.): 1.489825
+(DSP: 60 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: nan
+ fall: nan
+    anomaly score: 1.490
+Features (62 ms.): 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	nan
+fall:	nan
+Anomaly score (time: 0 ms.): 1.489825
+(DSP: 62 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: nan
+ fall: nan
+    anomaly score: 1.490
+Features (58 ms.): 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	nan
+fall:	nan
+Anomaly score (time: 0 ms.): 1.489825
+(DSP: 58 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: nan
+ fall: nan
+    anomaly score: 1.490
+Features (57 ms.): 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	nan
+fall:	nan
+Anomaly score (time: 0 ms.): 1.489825
+(DSP: 57 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: nan
+ fall: nan
+    anomaly score: 1.490
+Features (60 ms.): 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	nan
+fall:	nan
+Anomaly score (time: 0 ms.): 1.489825
+(DSP: 60 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: nan
+ fall: nan
+    anomaly score: 1.490
+Features (60 ms.): 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	nan
+fall:	nan
+Anomaly score (time: 0 ms.): 1.489825
+(DSP: 60 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: nan
+ fall: nan
+    anomaly score: 1.490
+Features (60 ms.): 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	nan
+fall:	nan
+Anomaly score (time: 0 ms.): 1.489825
+(DSP: 60 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: nan
+ fall: nan
+    anomaly score: 1.490
+Features (62 ms.): 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	nan
+fall:	nan
+Anomaly score (time: 0 ms.): 1.489825
+(DSP: 62 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: nan
+ fall: nan
+    anomaly score: 1.490
+Features (57 ms.): 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	nan
+fall:	nan
+Anomaly score (time: 0 ms.): 1.489825
+(DSP: 57 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: nan
+ fall: nan
+    anomaly score: 1.490
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13132
+load:0x40080400,len:3036
+entry 0x400805e4
+Espere conectando.......
+ Conectado Correctamente
+IP => 192.168.100.105 
+ ***ENVIANDO CREDENCIALES AL SERVIDOR***
+{"email":"test1@test.com","password":"123456"}
+200
+{
+  "ok": true,
+  "usuario": {
+    "nombre": "test1",
+    "email": "test1@test.com",
+    "uid": "63064bf73a92cc66f1aff10a"
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MzA2NGJmNzNhOTJjYzY2ZjFhZmYxMGEiLCJpYXQiOjE2NjM5NzU1NTAsImV4cCI6MTY2NDU4MDM1MH0.a_tcY8NMm6Zv-LfG_vW-HJ5GfIEGk9So6fIS5J-tvdY"
+}IMU iniciado correctamente
+ 
+ ###### ENVIANDO UID ######Features (60 ms.): 1.744752 0.679806 -1.309374 1.081262 2.919832 0.486061 -1.406569 1.251110 3.144330 0.581141 -1.459454 1.286996 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): -0.533837
+(DSP: 60 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: -0.534
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MzA2NGJmNzNhOTJjYzY2ZjFhZmYxMGEiLCJpYXQiOjE2NjM5NzU1NTAsImV4cCI6MTY2NDU4MDM1MH0.a_tcY8NMm6Zv-LfG_vW-HJ5GfIEGk9So6fIS5J-tvdY200
+Features (64 ms.): 1.618762 2.282497 4.041784 1.519232 1.510751 2.224106 3.485596 1.268578 1.954355 2.136250 3.932413 1.765397 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	0.929213
+fall:	0.070787
+Anomaly score (time: 0 ms.): -0.388985
+(DSP: 64 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 0.92921
+ fall: 0.07079
+    anomaly score: -0.389
+Features (59 ms.): 1.594027 2.402122 4.195670 1.401171 1.526343 2.394828 4.218584 1.388126 1.863211 2.391855 4.182119 1.550061 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	0.998314
+fall:	0.001686
+Anomaly score (time: 3 ms.): -0.387203
+(DSP: 59 ms., Classification: 0 ms., Anomaly: 3 ms.): 
+ AVD: 0.99831
+*****-AVD-****
+ fall: 0.00169
+    anomaly score: -0.387
+{
+  "ok": true,
+  "username": "muwZAfilTZtns5H",
+  "password": "PnwaPlflBcLZ9Ge",
+  "uid": "63064bf73a92cc66f1aff10a"
+}Intentando Conectar al Broker MQTT (EMQX)
+
+CONECTADO AL BROKER MQTT
+Subscrito: 63064bf73a92cc66f1aff10a/+/sdata
+Features (65 ms.): 1.641009 2.395949 4.141860 1.404457 1.494127 2.389428 4.238092 1.379115 1.845519 2.376386 4.149214 1.549223 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	0.999097
+fall:	0.000903
+Anomaly score (time: 0 ms.): -0.427487
+(DSP: 65 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 0.99910
+*****-AVD-****
+ fall: 0.00090
+    anomaly score: -0.427
+Features (64 ms.): 1.665031 2.380318 4.152407 1.454613 1.458288 2.400538 4.236246 1.342784 1.849155 2.397318 4.178573 1.526824 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	0.999076
+fall:	0.000924
+Anomaly score (time: 0 ms.): -0.446079
+(DSP: 64 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 0.99908
+*****-AVD-****
+ fall: 0.00092
+    anomaly score: -0.446
+Features (60 ms.): 1.645963 2.373509 4.165764 1.462453 1.441228 2.388285 4.150518 1.309875 1.889507 2.386899 4.153438 1.545245 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	0.997869
+fall:	0.002131
+Anomaly score (time: 0 ms.): -0.425110
+(DSP: 60 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 0.99787
+*****-AVD-****
+ fall: 0.00213
+    anomaly score: -0.425
+Features (60 ms.): 2.312286 1.576682 1.765543 1.403891 1.706695 0.933725 0.939532 1.573476 2.225519 -0.162227 -0.747887 1.701548 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	0.926518
+fall:	0.073482
+Anomaly score (time: 0 ms.): -0.547406
+(DSP: 60 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 0.92652
+ fall: 0.07348
+    anomaly score: -0.547
+Features (60 ms.): 1.941356 0.713652 0.918625 1.715244 2.733024 -0.233596 -0.944259 1.690910 2.039956 1.044146 0.714091 1.168238 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	0.991344
+fall:	0.008656
+Anomaly score (time: 0 ms.): -0.543662
+(DSP: 60 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 0.99134
+*****-AVD-****
+ fall: 0.00866
+    anomaly score: -0.544
+Features (62 ms.): 2.213959 0.464794 -1.414927 0.983603 1.240250 0.303022 -0.780017 0.719852 4.122842 1.199438 1.251864 1.807411 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	0.999993
+fall:	0.000007
+Anomaly score (time: 0 ms.): -0.137965
+(DSP: 62 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 0.99999
+*****-AVD-****
+ fall: 0.00001
+    anomaly score: -0.138
+Features (63 ms.): 6.235945 0.858257 -0.615203 2.001051 4.035785 -0.532477 -1.327465 1.669805 8.178738 -0.200284 -1.645690 2.443207 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	0.999044
+fall:	0.000956
+Anomaly score (time: 0 ms.): -1.666385
+(DSP: 63 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 0.99904
+*****-AVD-****
+ fall: 0.00096
+    anomaly score: -1.666
+Features (63 ms.): 4.228252 0.633179 -0.405975 2.003336 1.263789 0.015365 -0.603493 1.101228 3.097351 0.411091 -0.085637 1.937858 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	0.994136
+fall:	0.005864
+Anomaly score (time: 0 ms.): -0.461133
+(DSP: 63 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 0.99414
+*****-AVD-****
+ fall: 0.00586
+    anomaly score: -0.461
+Features (63 ms.): 0.896167 -1.774771 3.039555 1.044981 0.799448 1.155996 -0.040684 -0.169111 2.795158 2.377487 4.163072 1.909568 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): -0.286330
+(DSP: 63 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: -0.286
+Features (64 ms.): 0.856537 -2.378006 4.104753 0.853957 0.699202 2.211882 3.586470 0.603461 2.812814 2.393248 4.214309 1.918273 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): -0.229495
+(DSP: 64 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: -0.229
+Features (63 ms.): 0.846640 -2.369082 4.250199 0.911940 0.731630 2.352191 3.954868 0.647747 2.819804 2.389068 4.164775 1.901401 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): -0.247578
+(DSP: 63 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: -0.248
+Features (64 ms.): 2.136548 -0.015853 -1.226958 1.483474 1.382442 1.102215 0.561517 1.028303 3.297961 0.326122 0.525318 2.114311 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	0.989137
+fall:	0.010863
+Anomaly score (time: 0 ms.): -0.483611
+(DSP: 64 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 0.98914
+*****-AVD-****
+ fall: 0.01086
+    anomaly score: -0.484
+Features (60 ms.): 1.387433 2.270030 3.933738 1.297289 1.254790 1.089564 0.809591 1.263323 2.463428 2.154139 3.352256 1.633015 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	0.998716
+fall:	0.001284
+Anomaly score (time: 0 ms.): -0.507868
+(DSP: 60 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 0.99872
+*****-AVD-****
+ fall: 0.00128
+    anomaly score: -0.508
+Features (57 ms.): 8.158298 0.087768 -1.347367 2.116789 2.984030 0.121335 -1.455745 1.465834 7.645781 -0.179195 -1.629387 1.882334 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.038241
+(DSP: 57 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.038
+Features (61 ms.): 2.533111 0.312730 -0.555784 1.296861 1.272679 -0.459735 -1.127194 1.091053 2.941106 0.483190 -0.553523 1.671381 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	0.969591
+fall:	0.030409
+Anomaly score (time: 0 ms.): -0.834801
+(DSP: 61 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 0.96959
+ fall: 0.03041
+    anomaly score: -0.835
+Features (58 ms.): 0.287600 -0.338753 -0.567082 -0.489323 1.254367 1.994745 2.994508 1.172486 2.762450 2.405569 4.176138 1.848618 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): -0.024615
+(DSP: 58 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: -0.025
+Features (61 ms.): 0.853328 -1.078351 -0.389416 0.527000 0.953184 1.736294 2.217926 0.990224 2.880316 2.304528 3.893612 1.914371 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): -0.288588
+(DSP: 61 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: -0.289
+Features (61 ms.): 0.567556 0.735748 -0.706209 0.296409 1.645015 0.689064 -0.517944 0.728264 2.575686 2.144871 3.699691 1.915347 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): -0.289549
+(DSP: 61 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: -0.290
+Features (58 ms.): 0.270592 0.196666 -1.142451 -0.340431 0.437852 1.681234 1.644177 -0.107933 2.958023 2.363910 4.108112 1.955041 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.138002
+(DSP: 58 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.138
+Features (63 ms.): 1.901968 0.098035 -1.198971 1.209634 2.633492 0.723369 -0.103621 1.413260 7.250058 1.083523 -0.346669 2.582699 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	0.969797
+fall:	0.030203
+Anomaly score (time: 0 ms.): -0.060498
+(DSP: 63 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 0.96980
+ fall: 0.03020
+    anomaly score: -0.060
+[ 30486][E][Wire.cpp:378] requestFrom(): i2cWriteReadNonStop returned Error -1
+[ 30487][E][Wire.cpp:378] requestFrom(): i2cWriteReadNonStop returned Error -1
+[ 30490][E][Wire.cpp:378] requestFrom(): i2cWriteReadNonStop returned Error -1
+Features (61 ms.): 0.843343 1.886936 2.098073 0.795157 0.670584 -2.006968 2.551636 0.561756 3.251999 1.810650 1.757477 1.895940 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.021390
+(DSP: 61 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.021
+Features (55 ms.): 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	nan
+fall:	nan
+Anomaly score (time: 0 ms.): 1.489825
+(DSP: 55 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: nan
+ fall: nan
+    anomaly score: 1.490
+Features (59 ms.): 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	nan
+fall:	nan
+Anomaly score (time: 0 ms.): 1.489825
+(DSP: 59 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: nan
+ fall: nan
+    anomaly score: 1.490
+Features (55 ms.): 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	nan
+fall:	nan
+Anomaly score (time: 0 ms.): 1.489825
+(DSP: 55 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: nan
+ fall: nan
+    anomaly score: 1.490
+Features (59 ms.): 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	nan
+fall:	nan
+Anomaly score (time: 0 ms.): 1.489825
+(DSP: 59 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: nan
+ fall: nan
+    anomaly score: 1.490
+Features (55 ms.): 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	nan
+fall:	nan
+Anomaly score (time: 0 ms.): 1.489825
+(DSP: 55 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: nan
+ fall: nan
+    anomaly score: 1.490
+[ 37715][E][Wire.cpp:378] requestFrom(): i2cWriteReadNonStop returned Error 263
+[ 37727][E][Wire.cpp:378] requestFrom(): i2cWriteReadNonStop returned Error -1
+Features (55 ms.): 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	nan
+fall:	nan
+Anomaly score (time: 0 ms.): 1.489825
+(DSP: 55 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: nan
+ fall: nan
+    anomaly score: 1.490
+Features (59 ms.): 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	nan
+fall:	nan
+Anomaly score (time: 0 ms.): 1.489825
+(DSP: 59 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: nan
+ fall: nan
+    anomaly score: 1.490
+Features (72 ms.): 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	nan
+fall:	nan
+Anomaly score (time: 0 ms.): 1.489825
+(DSP: 72 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: nan
+ fall: nan
+    anomaly score: 1.490
+Features (58 ms.): 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	nan
+fall:	nan
+Anomaly score (time: 0 ms.): 1.489825
+(DSP: 58 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: nan
+ fall: nan
+    anomaly score: 1.490
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13132
+load:0x40080400,len:3036
+entry 0x400805e4
+Espere conectando........
+ Conectado Correctamente
+IP => 192.168.100.105 
+ ***ENVIANDO CREDENCIALES AL SERVIDOR***
+{"email":"test1@test.com","password":"123456"}
+200
+{
+  "ok": true,
+  "usuario": {
+    "nombre": "test1",
+    "email": "test1@test.com",
+    "uid": "63064bf73a92cc66f1aff10a"
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MzA2NGJmNzNhOTJjYzY2ZjFhZmYxMGEiLCJpYXQiOjE2NjM5NzU1OTMsImV4cCI6MTY2NDU4MDM5M30.KAFRKJLIDYQWY-dmSbS-5SIJk3-ZXOVyfaAjRu3wfx4"
+}Error al iniciar IMU
+ 
+ ###### ENVIANDO UID ######Features (56 ms.): 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	nan
+fall:	nan
+Anomaly score (time: 0 ms.): 1.489825
+(DSP: 56 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: nan
+ fall: nan
+    anomaly score: 1.490
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MzA2NGJmNzNhOTJjYzY2ZjFhZmYxMGEiLCJpYXQiOjE2NjM5NzU1OTMsImV4cCI6MTY2NDU4MDM5M30.KAFRKJLIDYQWY-dmSbS-5SIJk3-ZXOVyfaAjRu3wfx4200
+Features (57 ms.): 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	nan
+fall:	nan
+Anomaly score (time: 0 ms.): 1.489825
+(DSP: 57 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: nan
+ fall: nan
+    anomaly score: 1.490
+Features (59 ms.): 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	nan
+fall:	nan
+Anomaly score (time: 0 ms.): 1.489825
+(DSP: 59 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: nan
+ fall: nan
+    anomaly score: 1.490
+{
+  "ok": true,
+  "username": "muwZAfilTZtns5H",
+  "password": "PnwaPlflBcLZ9Ge",
+  "uid": "63064bf73a92cc66f1aff10a"
+}Intentando Conectar al Broker MQTT (EMQX)
+
+CONECTADO AL BROKER MQTT
+Subscrito: 63064bf73a92cc66f1aff10a/+/sdata
+Features (57 ms.): 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	nan
+fall:	nan
+Anomaly score (time: 0 ms.): 1.489825
+(DSP: 57 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: nan
+ fall: nan
+    anomaly score: 1.490
+Features (57 ms.): 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	nan
+fall:	nan
+Anomaly score (time: 0 ms.): 1.489825
+(DSP: 57 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: nan
+ fall: nan
+    anomaly score: 1.490
+Features (60 ms.): 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	nan
+fall:	nan
+Anomaly score (time: 0 ms.): 1.489825
+(DSP: 60 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: nan
+ fall: nan
+    anomaly score: 1.490
+Features (60 ms.): 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	nan
+fall:	nan
+Anomaly score (time: 0 ms.): 1.489825
+(DSP: 60 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: nan
+ fall: nan
+    anomaly score: 1.490
+Features (60 ms.): 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	nan
+fall:	nan
+Anomaly score (time: 0 ms.): 1.489825
+(DSP: 60 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: nan
+ fall: nan
+    anomaly score: 1.490
+Features (58 ms.): 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	nan
+fall:	nan
+Anomaly score (time: 0 ms.): 1.489825
+(DSP: 58 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: nan
+ fall: nan
+    anomaly score: 1.490
+Features (57 ms.): 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	nan
+fall:	nan
+Anomaly score (time: 0 ms.): 1.489825
+(DSP: 57 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: nan
+ fall: nan
+    anomaly score: 1.490
+Features (60 ms.): 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	nan
+fall:	nan
+Anomaly score (time: 0 ms.): 1.489825
+(DSP: 60 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: nan
+ fall: nan
+    anomaly score: 1.490
+Features (60 ms.): 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 0.000000 nan nan -10.000071 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	nan
+fall:	nan
+Anomaly score (time: 0 ms.): 1.489825
+(DSP: 60 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: nan
+ fall: nan
+    anomaly score: 1.490
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13132
+load:0x40080400,len:3036
+entry 0x400805e4
+Espere conectando....
+ Conectado Correctamente
+IP => 192.168.100.105 
+ ***ENVIANDO CREDENCIALES AL SERVIDOR***
+{"email":"test1@test.com","password":"123456"}
+200
+{
+  "ok": true,
+  "usuario": {
+    "nombre": "test1",
+    "email": "test1@test.com",
+    "uid": "63064bf73a92cc66f1aff10a"
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MzA2NGJmNzNhOTJjYzY2ZjFhZmYxMGEiLCJpYXQiOjE2NjM5NzU2MTIsImV4cCI6MTY2NDU4MDQxMn0.fVbXhzm89x88v0YJBFRr0VdAKqxyZ3NnGzLAUcEg0rU"
+}IMU iniciado correctamente
+Features (59 ms.): 0.660666 0.182321 -0.875386 0.547509 0.450525 0.689387 0.142229 0.046316 4.108932 -0.748625 -1.319354 1.768289 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	0.999995
+fall:	0.000005
+Anomaly score (time: 0 ms.): 0.640954
+(DSP: 59 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 0.99999
+*****-AVD-****
+ fall: 0.00001
+    anomaly score: 0.641
+ 
+ ###### ENVIANDO UID ######Features (62 ms.): 0.848548 1.441981 1.448954 0.750858 0.460526 -1.730146 2.416200 0.275491 2.604039 -2.361216 4.089599 1.823131 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): -0.092272
+(DSP: 62 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: -0.092
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MzA2NGJmNzNhOTJjYzY2ZjFhZmYxMGEiLCJpYXQiOjE2NjM5NzU2MTIsImV4cCI6MTY2NDU4MDQxMn0.fVbXhzm89x88v0YJBFRr0VdAKqxyZ3NnGzLAUcEg0rU200
+Features (60 ms.): 0.560428 1.485957 1.909156 0.520603 0.551332 -1.041919 1.117409 0.332176 2.652040 -2.377384 4.102995 1.830798 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): -0.116310
+(DSP: 60 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: -0.116
+Features (61 ms.): 0.853298 -0.623502 -0.064784 0.433271 1.237870 0.007725 -1.367065 0.966857 2.690649 -2.371710 4.175657 1.890541 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): -0.371797
+(DSP: 61 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: -0.372
+{
+  "ok": true,
+  "username": "muwZAfilTZtns5H",
+  "password": "PnwaPlflBcLZ9Ge",
+  "uid": "63064bf73a92cc66f1aff10a"
+}Intentando Conectar al Broker MQTT (EMQX)
+Features (61 ms.): 0.940304 -1.133596 0.882072 0.643002 0.817723 0.303925 -0.200316 0.616215 2.648078 -2.294670 3.886558 1.827728 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): -0.325901
+(DSP: 61 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: -0.326
+Features (62 ms.): 0.829371 0.440198 -0.735741 0.877755 2.167379 0.304577 -1.345482 1.379626 2.488601 -2.010806 3.344571 1.893146 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): -0.445754
+(DSP: 62 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: -0.446
+Features (69 ms.): 4.210941 -0.138005 -0.865074 2.225627 5.372269 -0.200957 -1.285196 2.069268 5.525666 0.417102 -1.006691 1.635703 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	0.868789
+fall:	0.131211
+Anomaly score (time: 0 ms.): -1.338256
+(DSP: 69 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 0.86879
+ fall: 0.13121
+    anomaly score: -1.338
+No se logro conectar al Broker MQTT 
+ ###### ENVIANDO UID ######Features (64 ms.): 5.399288 0.266919 -1.369361 1.728589 0.887614 -0.595269 -0.600382 0.715372 2.430337 -1.657755 2.251738 1.767414 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): -0.291840
+(DSP: 64 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: -0.292
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MzA2NGJmNzNhOTJjYzY2ZjFhZmYxMGEiLCJpYXQiOjE2NjM5NzU2MTIsImV4cCI6MTY2NDU4MDQxMn0.fVbXhzm89x88v0YJBFRr0VdAKqxyZ3NnGzLAUcEg0rU200
+Features (64 ms.): 0.909921 -2.350298 3.988115 0.887295 0.245057 -1.318319 1.405231 -0.404062 2.636274 -2.382577 4.093026 1.827581 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.080726
+(DSP: 64 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.081
+Features (65 ms.): 0.851587 -0.794158 2.128984 1.087071 0.343609 -0.389667 -0.126300 -0.340609 2.643462 -2.340276 4.157630 1.905031 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): -0.000478
+(DSP: 65 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: -0.000
+{
+  "ok": true,
+  "username": "muwZAfilTZtns5H",
+  "password": "PnwaPlflBcLZ9Ge",
+  "uid": "63064bf73a92cc66f1aff10a"
+}Intentando Conectar al Broker MQTT (EMQX)
+
+CONECTADO AL BROKER MQTT
+Subscrito: 63064bf73a92cc66f1aff10a/+/sdata
+Features (63 ms.): 0.585894 0.928613 0.160163 0.683821 1.854252 -0.253285 -1.211735 1.353183 2.650589 -2.026062 3.208342 1.743112 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): -0.244709
+(DSP: 63 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: -0.245
+Features (64 ms.): 1.191783 0.091179 -1.464036 0.737650 1.239900 0.436266 -0.776323 0.744859 2.556532 -2.179034 3.719134 1.803859 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): -0.495961
+(DSP: 64 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: -0.496
+Features (64 ms.): 2.098468 0.122896 -1.228433 1.215055 3.313728 0.203908 -0.509658 1.392351 3.708099 -0.905946 -0.297189 2.059724 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	0.999991
+fall:	0.000009
+Anomaly score (time: 0 ms.): -0.663743
+(DSP: 64 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 0.99999
+*****-AVD-****
+ fall: 0.00001
+    anomaly score: -0.664
+Features (61 ms.): 7.598438 -0.316961 -1.624284 2.388071 2.860475 0.052448 -1.057740 1.826911 1.881323 -0.944780 0.263068 1.303536 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): -0.409094
+(DSP: 61 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: -0.409
+Features (60 ms.): 1.021945 -1.646512 1.499354 0.742650 1.468877 0.041940 -1.134430 1.042808 2.614950 -2.008149 3.297540 1.907240 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): -0.585207
+(DSP: 60 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: -0.585
+Features (60 ms.): 1.102638 -0.792103 -0.704812 0.789075 0.939122 0.303060 -1.507996 0.676839 2.574117 -2.022045 3.498440 1.919065 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): -0.261299
+(DSP: 60 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: -0.261
+Features (60 ms.): 0.711763 -0.844321 -0.617369 0.012665 0.986542 -0.100355 0.331328 1.087284 2.625294 -2.264054 3.897109 1.820768 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): -0.417985
+(DSP: 60 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: -0.418
+Features (60 ms.): 0.353734 0.413413 2.985296 0.504365 0.433778 1.566634 2.367678 0.186767 2.750556 -2.370010 4.094859 1.871331 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): 0.056847
+(DSP: 60 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: 0.057
+Features (58 ms.): 0.543765 -1.723209 1.996913 0.224281 1.084011 2.064498 3.494355 1.127186 2.586446 -2.304210 3.875084 1.791407 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): -0.272690
+(DSP: 58 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: -0.273
+Features (63 ms.): 0.534375 -2.343145 4.065088 0.482160 0.981413 2.370575 4.147618 0.997662 2.560850 -2.396430 4.174569 1.816494 
+Running neural network...
+Predictions (time: 0 ms.):
+AVD:	1.000000
+fall:	0.000000
+Anomaly score (time: 0 ms.): -0.284552
+(DSP: 63 ms., Classification: 0 ms., Anomaly: 0 ms.): 
+ AVD: 1.00000
+*****-AVD-****
+ fall: 0.00000
+    anomaly score: -0.285

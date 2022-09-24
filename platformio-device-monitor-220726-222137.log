@@ -1,8 +1,0 @@
-ts Jun  
-[2J[HEspere conectando....
- Conectado Correctamente
-IP => 192.168.100.105 
- ***Obteniendo Credenciales***
-{"email":"test1@test.com","password":"123456"}
-200
-{"ok":true,"usuario":{"nombre":"JGE","email":"test1@test.com","uid":"62d9c65473a36709d8a9326f"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmQ5YzY1NDczYTM2NzA5ZDhhOTMyNmYiLCJpYXQiOjE2NTg4OTIwOTksImV4cCI6MTY1OTQ5Njg5OX0.UKiDoZ4lTSXjzDBDs6vRHq46Da6zsZG0zGTIWwFoZi8"}

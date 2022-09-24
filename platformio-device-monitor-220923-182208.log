@@ -1,0 +1,261 @@
+Espere conectando........
+ Conectado Correctamente
+IP => 192.168.100.105 
+ ***ENVIANDO CREDENCIALES AL SERVIDOR***
+{"email":"test1@test.com","password":"123456"}
+200
+{
+  "ok": true,
+  "usuario": {
+    "nombre": "test1",
+    "email": "test1@test.com",
+    "uid": "63064bf73a92cc66f1aff10a"
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MzA2NGJmNzNhOTJjYzY2ZjFhZmYxMGEiLCJpYXQiOjE2NjM5NzUzMzIsImV4cCI6MTY2NDU4MDEzMn0.m3VvykyLGU86yCww70pWmjC_rfR3gwLp32yiEcX8CUE"
+} 
+ ###### ENVIANDO UID ######eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MzA2NGJmNzNhOTJjYzY2ZjFhZmYxMGEiLCJpYXQiOjE2NjM5NzUzMzIsImV4cCI6MTY2NDU4MDEzMn0.m3VvykyLGU86yCww70pWmjC_rfR3gwLp32yiEcX8CUE200
+{
+  "ok": true,
+  "username": "muwZAfilTZtns5H",
+  "password": "PnwaPlflBcLZ9Ge",
+  "uid": "63064bf73a92cc66f1aff10a"
+}Intentando Conectar al Broker MQTT (EMQX)
+
+CONECTADO AL BROKER MQTT
+Subscrito: 63064bf73a92cc66f1aff10a/+/sdata
+{
+  "ok": true,
+  "username": "muwZAfilTZtns5H",
+  "password": "PnwaPlflBcLZ9Ge",
+  "uid": "63064bf73a92cc66f1aff10a",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 10,
+      "last": {
+        "value": 82,
+        "save": 1
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 21,
+        "save": 1
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 10,
+      "last": {
+        "value": 41,
+        "save": 1
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 10,
+      "last": {
+        "value": 85,
+        "save": 0
+      }
+    }
+  ]
+}{
+  "ok": true,
+  "username": "muwZAfilTZtns5H",
+  "password": "PnwaPlflBcLZ9Ge",
+  "uid": "63064bf73a92cc66f1aff10a",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 10,
+      "last": {
+        "value": 8,
+        "save": 1
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 82,
+        "save": 1
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 10,
+      "last": {
+        "value": 97,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 10,
+      "last": {
+        "value": 60,
+        "save": 0
+      }
+    }
+  ]
+}{
+  "ok": true,
+  "username": "muwZAfilTZtns5H",
+  "password": "PnwaPlflBcLZ9Ge",
+  "uid": "63064bf73a92cc66f1aff10a",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 10,
+      "last": {
+        "value": 91,
+        "save": 1
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 98,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 10,
+      "last": {
+        "value": 80,
+        "save": 0
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 10,
+      "last": {
+        "value": 36,
+        "save": 0
+      }
+    }
+  ]
+}{
+  "ok": true,
+  "username": "muwZAfilTZtns5H",
+  "password": "PnwaPlflBcLZ9Ge",
+  "uid": "63064bf73a92cc66f1aff10a",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 10,
+      "last": {
+        "value": 3,
+        "save": 1
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 21,
+        "save": 1
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 10,
+      "last": {
+        "value": 52,
+        "save": 1
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 10,
+      "last": {
+        "value": 77,
+        "save": 0
+      }
+    }
+  ]
+}{
+  "ok": true,
+  "username": "muwZAfilTZtns5H",
+  "password": "PnwaPlflBcLZ9Ge",
+  "uid": "63064bf73a92cc66f1aff10a",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 10,
+      "last": {
+        "value": 34,
+        "save": 1
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 15,
+        "save": 1
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 10,
+      "last": {
+        "value": 90,
+        "save": 1
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 10,
+      "last": {
+        "value": 11,
+        "save": 0
+      }
+    }
+  ]
+}{
+  "ok": true,
+  "username": "muwZAfilTZtns5H",
+  "password": "PnwaPlflBcLZ9Ge",
+  "uid": "63064bf73a92cc66f1aff10a",
+  "variables": [
+    {
+      "variableName": "temp",
+      "frecuencia": 10,
+      "last": {
+        "value": 68,
+        "save": 1
+      }
+    },
+    {
+      "variableName": "heart",
+      "frecuencia": 10,
+      "last": {
+        "value": 5,
+        "save": 1
+      }
+    },
+    {
+      "variableName": "spo2",
+      "frecuencia": 10,
+      "last": {
+        "value": 69,
+        "save": 1
+      }
+    },
+    {
+      "variableName": "status",
+      "frecuencia": 10,
+      "last": {
+        "value": 19,
+        "save": 0
+      }
+    }
+  ]
+} 
+ ###### ENVIANDO UID ######eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MzA2NGJmNzNhOTJjYzY2ZjFhZmYxMGEiLCJpYXQiOjE2NjM5NzUzMzIsImV4cCI6MTY2NDU4MDEzMn0.m3VvykyLGU86yCww70pWmjC_rfR3gwLp32yiEcX8CUE200

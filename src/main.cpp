@@ -6,6 +6,23 @@
 #include <ArduinoJson.h>
 #include <PubSubClient.h>
 
+//lib MPU6050
+#include <fall_proyecto_inferencing.h>
+#include <Adafruit_MPU6050.h>
+#include <Adafruit_Sensor.h>
+#include <Wire.h>
+
+//crear una tarea para loop2
+TaskHandle_t Task1;
+
+Adafruit_MPU6050 mpu;
+//variable para enviar data entre nucleo
+bool ready_send_data_MPU = false;
+
+//variable para edge//
+float features[EI_CLASSIFIER_DSP_INPUT_FRAME_SIZE];
+size_t feature_ix = 0;
+
 //variables para server
 String email = "test1@test.com";
 String password = "123456";
@@ -14,15 +31,20 @@ String webApiFind = "http://192.168.100.160:3000/api/login/find";
 const char* mqttServer = "192.168.100.160";
 int mqttPort = 1883;
 
-// //
-// String responseBody;
-
 //pines
 #define led 2
 
 //credenciales WiFi
 const char *wifi_ssid = "TELECOM_Pato";
 const char *wifi_pass = "P@to1984$";
+
+//Variables globales
+long lastReconnect;
+WiFiClient espClient;
+PubSubClient client(espClient);
+
+DynamicJsonDocument mqttDataDoc(1024);
+StaticJsonDocument<512> dataServer;
 
 //funciones
 void conectar();
@@ -33,14 +55,53 @@ bool reconnect();
 void procesarSensores();
 void sendData();
 
+//LOOP2
+void loop2(void *parameter){
+for (;;){
 
-//Variables globales
-long lastReconnect;
-WiFiClient espClient;
-PubSubClient client(espClient);
+  sensors_event_t a, g, temp;
+  mpu.getEvent(&a, &g, &temp);
 
-DynamicJsonDocument mqttDataDoc(1024);
-StaticJsonDocument<512> dataServer;
+  features[feature_ix++] = a.acceleration.x;
+  features[feature_ix++] = a.acceleration.y;
+  features[feature_ix++] = a.acceleration.z;
+
+  if(feature_ix == EI_CLASSIFIER_DSP_INPUT_FRAME_SIZE){
+    signal_t signal;
+    ei_impulse_result_t result;
+    int err = numpy::signal_from_buffer(features, EI_CLASSIFIER_DSP_INPUT_FRAME_SIZE, &signal);
+  if (err != 0) {
+        ei_printf("Failed to create signal from buffer (%d)\n", err);
+        return;
+    }
+
+  EI_IMPULSE_ERROR res = run_classifier(&signal, &result, true);
+  if(res != 0) return;
+
+    // print the predictions
+    ei_printf("(DSP: %d ms., Classification: %d ms., Anomaly: %d ms.)",
+        result.timing.dsp, result.timing.classification, result.timing.anomaly);
+    ei_printf(": \n");
+
+    for (size_t ix = 0; ix < EI_CLASSIFIER_LABEL_COUNT; ix++) {
+        ei_printf(" %s: %.5f\n", result.classification[ix].label, result.classification[ix].value);
+        if(result.classification[ix].value > 0.98){
+          if(result.classification[ix].label == "fall"){
+            ready_send_data_MPU = true;
+            delay(4000);
+          }
+          if(result.classification[ix].label == "AVD"){
+            Serial.println("*****-AVD-****");
+          }
+        }
+    }
+
+#if EI_CLASSIFIER_HAS_ANOMALY == 1
+ei_printf("    anomaly score: %.3f\n", result.anomaly);
+#endif
+    feature_ix = 0;
+  }
+}} //for  //loop2
 
 
 void setup() {
@@ -51,8 +112,15 @@ void setup() {
   conectar();
   SendDataServer();
   // getMqttCredentials();
+   //?Iniciar parametros de task2
+  xTaskCreatePinnedToCore(loop2,"Task_1",3000,NULL,1,&Task1,0);
+  //* Try to initialize MPU6050
+  Serial.println(mpu.begin() ? F("IMU iniciado correctamente") : F("Error al iniciar IMU"));
+  mpu.setAccelerometerRange(MPU6050_RANGE_2_G);
+  mpu.setGyroRange(MPU6050_RANGE_250_DEG);
+  mpu.setFilterBandwidth(MPU6050_BAND_10_HZ);
 
-
+  delay(100);
 }
 
 void loop() {
@@ -62,7 +130,7 @@ void loop() {
   sendData();
 
   // serializeJsonPretty(mqttDataDoc, Serial);
-  // delay(10000);
+  // delay(8000);
 
 }
 
@@ -117,10 +185,13 @@ void procesarSensores(){
   }
   prev_hum = RES;
 
+
+
+
   //*status
-    int status = random(1,100);
+  int status = random(1,100);
   mqttDataDoc["variables"][3]["variableName"] = "status";
-  mqttDataDoc["variables"][3]["frecuencia"] = 10; //*frecuencia a enviar el dato
+  mqttDataDoc["variables"][3]["frecuencia"] = 10; //*frecuencia a enviar el dato 
   mqttDataDoc["variables"][3]["last"]["value"] = status;
     dif = status - prev_temp;
   if (dif < 0) {dif *= -1;}
@@ -340,7 +411,6 @@ bool reconnect(){
   String uid = usuario["uid"];
   String topic = uid + "/+/sdata";
   String dId = "device_" + uid;
-
 
   if(client.connect(dId.c_str(), userName, password)){
    Serial.println("");
