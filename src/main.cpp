@@ -5,12 +5,29 @@
 #include <HTTPClient.h>
 #include <ArduinoJson.h>
 #include <PubSubClient.h>
+#include <Wire.h>
+#include<stdlib.h>
+
+using namespace std;
 
 //lib MPU6050
 #include <fall_proyecto_inferencing.h>
 #include <Adafruit_MPU6050.h>
 #include <Adafruit_Sensor.h>
-#include <Wire.h>
+
+//libMAX30100
+#include <MAX30100_PulseOximeter.h>
+
+//variables para MAX30100
+PulseOximeter max30100;
+// uint8_t addres_Max30100 = 0x57;
+int counter = 5;
+float getHeart=0.0;
+float getSpo2=0.0;
+float averageHeart =0.0;
+float averageSpo2 =0.0;
+float send_data_max30100_heart=0.0;
+float send_data_max30100_spo2=0.0;
 
 //crear una tarea para loop2
 TaskHandle_t Task1;
@@ -47,8 +64,8 @@ PubSubClient client(espClient);
 
 long varsLastS[20];
 
-DynamicJsonDocument mqttDataDoc(1024);
-StaticJsonDocument<512> dataServer;
+DynamicJsonDocument mqttDataDoc(2048);
+StaticJsonDocument<1024> dataServer;
 
 //funciones
 void conectar();
@@ -69,7 +86,7 @@ void loop2(void *parameter){
   features[feature_ix++] = a.acceleration.x;
   features[feature_ix++] = a.acceleration.y;
   features[feature_ix++] = a.acceleration.z;
-
+ 
   if(feature_ix == EI_CLASSIFIER_DSP_INPUT_FRAME_SIZE){
     signal_t signal;
     ei_impulse_result_t result;
@@ -83,6 +100,7 @@ void loop2(void *parameter){
   if(res != 0) return;
 
     // print the predictions
+    
     ei_printf("(DSP: %d ms., Classification: %d ms., Anomaly: %d ms.)",
         result.timing.dsp, result.timing.classification, result.timing.anomaly);
     ei_printf(": \n");
@@ -94,7 +112,7 @@ void loop2(void *parameter){
             ready_send_data_MPU = 1;
           }
           if(result.classification[ix].label == "AVD"){
-            Serial.println("*****-AVD-****");
+            // Serial.println("*****-AVD-****");
             // ready_send_data_MPU = false;
           }
         }
@@ -105,38 +123,66 @@ ei_printf("    anomaly score: %.3f\n", result.anomaly);
 #endif
     feature_ix = 0;
   }
+
+
+  max30100.update();
+  getHeart = max30100.getHeartRate();
+  getSpo2 = max30100.getSpO2();
+
 }} //for  //loop2
 
+void onBeatDetected(){ 
+    if(getHeart < 50 || getSpo2 < 50 ){
+        return;
+      }
+
+      if(counter > 0){
+        averageHeart = ((averageHeart + getHeart)/2);
+        averageSpo2 = ((averageSpo2 + getSpo2)/2);
+        counter = counter -1;
+      }
+
+      if(counter == 0){
+      send_data_max30100_heart=averageHeart;
+      send_data_max30100_spo2=averageSpo2;
+      counter = 20;
+      }
+}
 
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(115200);
+  Wire.begin();
 
   pinMode(led, OUTPUT);
   conectar();
   SendDataServer();
   // getMqttCredentials();
-   //?Iniciar parametros de task2
-  xTaskCreatePinnedToCore(loop2,"Task_1",3000,NULL,1,&Task1,0);
-  //* Try to initialize MPU6050
+  //?MPU6050
   Serial.println(mpu.begin() ? F("IMU iniciado correctamente") : F("Error al iniciar IMU"));
   mpu.setAccelerometerRange(MPU6050_RANGE_2_G);
   mpu.setGyroRange(MPU6050_RANGE_250_DEG);
   mpu.setFilterBandwidth(MPU6050_BAND_10_HZ);
+   //?Iniciar parametros de task2
+  xTaskCreatePinnedToCore(loop2,"Task_1",5000,NULL,1,&Task1,0);
+  //?MAX30100
+  Serial.println(max30100.begin() ? F("MAX30100 iniciado correctamente") : F("Error al iniciar MAX30100"));
+  max30100.setIRLedCurrent(MAX30100_LED_CURR_37MA);
+  max30100.setOnBeatDetectedCallback(onBeatDetected);
 
   delay(100);
 }
 
 void loop() {
+  //TODO: funciones de MAX30100
+  
   checkMqttConnection();
-
   procesarSensores();
   sendData();
-
   // serializeJsonPretty(mqttDataDoc, Serial);
   // delay(8000);
-
 }
+
 
 int prev_temp = 0;
 int prev_hum = 0;
@@ -159,38 +205,22 @@ void procesarSensores(){
   }
   prev_temp = temp;
 
-  //obtener BPM
-  int BPM = random(1,100);
+  //*obtener BPM
+  char char_array1[20];
+  snprintf(char_array1,sizeof(char_array1),"%0.1f",send_data_max30100_heart);
   mqttDataDoc["variables"][1]["variableName"] = "heart";
   mqttDataDoc["variables"][1]["frecuencia"] = 10;
-  mqttDataDoc["variables"][1]["last"]["value"] = BPM;
-    dif = BPM - prev_hum;
-  if (dif < 0) {dif *= -1;}
-
-  if (dif >= 20) {
-    mqttDataDoc["variables"][1]["last"]["save"] =1;
-  }else{
-    mqttDataDoc["variables"][1]["last"]["save"] = 0;
-  }
-  prev_hum = BPM;
+  mqttDataDoc["variables"][1]["last"]["value"] = char_array1;
+  mqttDataDoc["variables"][1]["last"]["save"] =1;
+  // mqttDataDoc["variables"][1]["last"]["value"] = 
 
   //*spo2
-    int RES = random(1,100);
+  char char_array2[20];
+  snprintf(char_array2, sizeof(char_array2),"%0.1f",send_data_max30100_spo2);
   mqttDataDoc["variables"][2]["variableName"] = "spo2";
   mqttDataDoc["variables"][2]["frecuencia"] = 10;
-  mqttDataDoc["variables"][2]["last"]["value"] = RES;
-    dif = RES- prev_hum;
-  if (dif < 0) {dif *= -1;}
-
-  if (dif >= 20) {
-    mqttDataDoc["variables"][2]["last"]["save"] =1;
-  }else{
-    mqttDataDoc["variables"][2]["last"]["save"] = 0;
-  }
-  prev_hum = RES;
-
-
-
+  mqttDataDoc["variables"][2]["last"]["value"] = char_array2;
+  mqttDataDoc["variables"][2]["last"]["save"] =1;
 
   //*status ENVIAR ESTABILIDAD DEL USUARIO
 if(ready_send_data_MPU == 0){
@@ -244,6 +274,7 @@ void sendData(){
 
   String toSend = "";
   serializeJson(mqttDataDoc["variables"][i]["last"], toSend);
+
   client.publish(topic.c_str(),toSend.c_str());
 
   } }
@@ -320,6 +351,7 @@ const char* usuario_uid = usuario["uid"]; // "62d9c65473a36709d8a9326f"
 
 
 serializeJsonPretty(dataServer, Serial);
+Serial.println(" ");
 http.end();
 return true;
   }

@@ -18,6 +18,7 @@
         "streambuf": "cpp",
         "system_error": "cpp",
         "functional": "cpp",
-        "tuple": "cpp"
+        "tuple": "cpp",
+        "random": "cpp"
     }
 }
