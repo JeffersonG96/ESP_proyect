@@ -18,6 +18,14 @@ using namespace std;
 //libMAX30100
 #include <MAX30100_PulseOximeter.h>
 
+//lib MLX90614 temperatura
+#include <Adafruit_MLX90614.h>
+//variable mlx9014
+Adafruit_MLX90614 mlx = Adafruit_MLX90614();
+int tempCounter=50;
+float averageTemp = 20;
+float send_data_temperature = 0;
+
 //variables para MAX30100
 PulseOximeter max30100;
 // uint8_t addres_Max30100 = 0x57;
@@ -76,6 +84,21 @@ bool reconnect();
 void procesarSensores();
 void sendData();
 
+void readTemperature(){
+  float temperaturaObjeto = mlx.readObjectTempC();
+  if(temperaturaObjeto < 20){
+    return;
+  }
+  if(tempCounter > 0){
+  averageTemp =((averageTemp + temperaturaObjeto)/2 );
+  tempCounter--;
+  }
+  if(tempCounter == 0){
+    tempCounter=50;
+    send_data_temperature = averageTemp;
+  }
+}
+
 //LOOP2
 void loop2(void *parameter){
   for (;;){
@@ -124,10 +147,11 @@ ei_printf("    anomaly score: %.3f\n", result.anomaly);
     feature_ix = 0;
   }
 
-
   max30100.update();
   getHeart = max30100.getHeartRate();
   getSpo2 = max30100.getSpO2();
+
+  readTemperature();
 
 }} //for  //loop2
 
@@ -157,6 +181,7 @@ void setup() {
   pinMode(led, OUTPUT);
   conectar();
   SendDataServer();
+  Serial.println("");
   // getMqttCredentials();
   //?MPU6050
   Serial.println(mpu.begin() ? F("IMU iniciado correctamente") : F("Error al iniciar IMU"));
@@ -164,17 +189,20 @@ void setup() {
   mpu.setGyroRange(MPU6050_RANGE_250_DEG);
   mpu.setFilterBandwidth(MPU6050_BAND_10_HZ);
    //?Iniciar parametros de task2
-  xTaskCreatePinnedToCore(loop2,"Task_1",5000,NULL,1,&Task1,0);
+  xTaskCreatePinnedToCore(loop2,"Task_1",7000,NULL,1,&Task1,0);
   //?MAX30100
   Serial.println(max30100.begin() ? F("MAX30100 iniciado correctamente") : F("Error al iniciar MAX30100"));
   max30100.setIRLedCurrent(MAX30100_LED_CURR_37MA);
   max30100.setOnBeatDetectedCallback(onBeatDetected);
+  //?MLX90614
+  Serial.println(mlx.begin() ? F("MLX90614 iniciado correctamente") : F("Error al iniciar MLX90614"));
 
-  delay(100);
+  delay(2000);
 }
 
 void loop() {
   //TODO: funciones de MAX30100
+  // readTemperature();
   
   checkMqttConnection();
   procesarSensores();
@@ -191,19 +219,13 @@ int prev_hum = 0;
 void procesarSensores(){
 
   //obtener temp
-  int temp = random(1,100);
+  char char_arrayTemp[20];
+  snprintf(char_arrayTemp,sizeof(char_arrayTemp),"%0.1f",send_data_temperature);
   mqttDataDoc["variables"][0]["variableName"] = "temp";
   mqttDataDoc["variables"][0]["frecuencia"] = 10; //*frecuencia a enviar el dato
-  mqttDataDoc["variables"][0]["last"]["value"] = temp;
-  int dif = temp - prev_temp;
-  if (dif < 0) {dif *= -1;}
+  mqttDataDoc["variables"][0]["last"]["value"] = char_arrayTemp;
+  mqttDataDoc["variables"][0]["last"]["save"] = 1;
 
-  if (dif >= 20) {
-    mqttDataDoc["variables"][0]["last"]["save"] = 1;
-  }else{
-    mqttDataDoc["variables"][0]["last"]["save"] = 0;
-  }
-  prev_temp = temp;
 
   //*obtener BPM
   char char_array1[20];
