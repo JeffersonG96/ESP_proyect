@@ -7,6 +7,10 @@
 #include <PubSubClient.h>
 #include <Wire.h>
 #include<stdlib.h>
+//OTA
+#include <ESPmDNS.h>
+#include <WiFiUdp.h>
+#include <ArduinoOTA.h>
 
 using namespace std;
 
@@ -22,7 +26,7 @@ using namespace std;
 #include <Adafruit_MLX90614.h>
 //variable mlx9014
 Adafruit_MLX90614 mlx = Adafruit_MLX90614();
-int tempCounter=50;
+int tempCounter=100;
 float averageTemp = 20;
 float send_data_temperature = 0;
 
@@ -94,7 +98,7 @@ void readTemperature(){
   tempCounter--;
   }
   if(tempCounter == 0){
-    tempCounter=50;
+    tempCounter=100;
     send_data_temperature = averageTemp;
   }
 }
@@ -180,8 +184,23 @@ void setup() {
 
   pinMode(led, OUTPUT);
   conectar();
+
+  //OTA
+  ArduinoOTA.onStart([]()
+                     {
+    String type;
+    if (ArduinoOTA.getCommand() == U_FLASH) {
+      type = "sketch";
+    } else {  // U_FS
+      type = "filesystem";
+    }
+
+  });
+
+  ArduinoOTA.begin();
+
   SendDataServer();
-  Serial.println("");
+  // Serial.println("");
   // getMqttCredentials();
   //?MPU6050
   Serial.println(mpu.begin() ? F("IMU iniciado correctamente") : F("Error al iniciar IMU"));
@@ -197,13 +216,12 @@ void setup() {
   //?MLX90614
   Serial.println(mlx.begin() ? F("MLX90614 iniciado correctamente") : F("Error al iniciar MLX90614"));
 
-  delay(2000);
 }
 
 void loop() {
-  //TODO: funciones de MAX30100
-  // readTemperature();
-  
+  //OTA
+  ArduinoOTA.handle();
+
   checkMqttConnection();
   procesarSensores();
   sendData();
@@ -338,8 +356,8 @@ bool SendDataServer(){
   buff["password"] = password;
 
   serializeJson(buff, jsonParams);
-  Serial.println();
-  Serial.println(jsonParams);
+  // Serial.println();
+  // Serial.println(jsonParams);
 
   http.begin(webApi);
   http.addHeader("Content-Type","application/json");
@@ -480,7 +498,7 @@ bool reconnect(){
   JsonObject usuario = dataServer["usuario"];
   String uid = usuario["uid"];
   String topic = uid + "/+/sdata";
-  String dId = "device_" + uid;
+  String dId = "ESP_" + uid;
 
 
   if(client.connect(dId.c_str(), userName, password)){
