@@ -64,6 +64,9 @@ int mqttPort = 1883;
 
 //pines
 #define led 2
+#define batterry 36
+
+float levelBattery;
 
 //credenciales WiFi
 const char *wifi_ssid = "TELECOM_Pato";
@@ -128,13 +131,13 @@ void loop2(void *parameter){
 
     // print the predictions
     
-    ei_printf("(DSP: %d ms., Classification: %d ms., Anomaly: %d ms.)",
-        result.timing.dsp, result.timing.classification, result.timing.anomaly);
-    ei_printf(": \n");
+    // ei_printf("(DSP: %d ms., Classification: %d ms., Anomaly: %d ms.)",
+    //     result.timing.dsp, result.timing.classification, result.timing.anomaly);
+    // ei_printf(": \n");
 
     for (size_t ix = 0; ix < EI_CLASSIFIER_LABEL_COUNT; ix++) {
-        ei_printf(" %s: %.5f\n", result.classification[ix].label, result.classification[ix].value);
-        if(result.classification[ix].value > 0.98){
+        // ei_printf(" %s: %.5f\n", result.classification[ix].label, result.classification[ix].value);
+        if(result.classification[ix].value > 0.8){
           if(result.classification[ix].label == "fall"){
             ready_send_data_MPU = 1;
           }
@@ -146,7 +149,7 @@ void loop2(void *parameter){
     }
 
 #if EI_CLASSIFIER_HAS_ANOMALY == 1
-ei_printf("    anomaly score: %.3f\n", result.anomaly);
+// ei_printf("    anomaly score: %.3f\n", result.anomaly);
 #endif
     feature_ix = 0;
   }
@@ -208,20 +211,21 @@ void setup() {
   mpu.setGyroRange(MPU6050_RANGE_250_DEG);
   mpu.setFilterBandwidth(MPU6050_BAND_10_HZ);
    //?Iniciar parametros de task2
-  xTaskCreatePinnedToCore(loop2,"Task_1",7000,NULL,1,&Task1,0);
   //?MAX30100
   Serial.println(max30100.begin() ? F("MAX30100 iniciado correctamente") : F("Error al iniciar MAX30100"));
   max30100.setIRLedCurrent(MAX30100_LED_CURR_37MA);
   max30100.setOnBeatDetectedCallback(onBeatDetected);
   //?MLX90614
   Serial.println(mlx.begin() ? F("MLX90614 iniciado correctamente") : F("Error al iniciar MLX90614"));
-
+  xTaskCreatePinnedToCore(loop2,"Task_1",8000,NULL,1,&Task1,0);
 }
 
 void loop() {
   //OTA
   ArduinoOTA.handle();
 
+  float readBattery = (analogRead(batterry)*3.3)/4095;
+  levelBattery = readBattery*1.15;
   checkMqttConnection();
   procesarSensores();
   sendData();
@@ -294,6 +298,11 @@ if (ready_send_data_MPU == 1){
   digitalWrite(led,HIGH);
   }
 } 
+
+  //battery
+  mqttDataDoc["variables"][4]["variableName"] = "battery";
+  mqttDataDoc["variables"][4]["frecuencia"] = 10; //*frecuencia a enviar el dato
+  mqttDataDoc["variables"][4]["last"]["value"] = levelBattery;  
 
 }
 
@@ -498,7 +507,7 @@ bool reconnect(){
   JsonObject usuario = dataServer["usuario"];
   String uid = usuario["uid"];
   String topic = uid + "/+/sdata";
-  String dId = "ESP_" + uid;
+  String dId = "ESP32_" + uid;
 
 
   if(client.connect(dId.c_str(), userName, password)){
@@ -515,6 +524,7 @@ bool reconnect(){
   }
   return true;
 }
+
 
 
 
