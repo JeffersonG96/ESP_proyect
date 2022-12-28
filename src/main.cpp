@@ -24,6 +24,9 @@ using namespace std;
 
 //lib MLX90614 temperatura
 #include <Adafruit_MLX90614.h>
+//bateria
+// #include "soc/soc.h"
+// #include "soc/rtc_cntl_reg.h"
 //variable mlx9014
 Adafruit_MLX90614 mlx = Adafruit_MLX90614();
 int tempCounter=100;
@@ -33,9 +36,9 @@ float send_data_temperature = 0;
 //variables para MAX30100
 PulseOximeter max30100;
 // uint8_t addres_Max30100 = 0x57;
-int counter = 5;
-float getHeart=0.0;
-float getSpo2=0.0;
+int counterHS = 2;
+float getHeart=60.0;
+float getSpo2=95.0;
 float averageHeart =0.0;
 float averageSpo2 =0.0;
 float send_data_max30100_heart=0.0;
@@ -63,10 +66,9 @@ const char* mqttServer = "192.168.100.160";
 int mqttPort = 1883;
 
 //pines
-#define led 2
 #define batterry 36
 
-float levelBattery;
+float levelBattery = 3.5;
 
 //credenciales WiFi
 const char *wifi_ssid = "TELECOM_Pato";
@@ -93,7 +95,7 @@ void sendData();
 
 void readTemperature(){
   float temperaturaObjeto = mlx.readObjectTempC();
-  if(temperaturaObjeto < 20){
+  if(temperaturaObjeto < 10){
     return;
   }
   if(tempCounter > 0){
@@ -101,8 +103,9 @@ void readTemperature(){
   tempCounter--;
   }
   if(tempCounter == 0){
-    tempCounter=100;
-    send_data_temperature = averageTemp;
+    tempCounter=200;
+    float mapTemp = 0.109*averageTemp + 33.07;
+    send_data_temperature = mapTemp;
   }
 }
 
@@ -137,7 +140,7 @@ void loop2(void *parameter){
 
     for (size_t ix = 0; ix < EI_CLASSIFIER_LABEL_COUNT; ix++) {
         // ei_printf(" %s: %.5f\n", result.classification[ix].label, result.classification[ix].value);
-        if(result.classification[ix].value > 0.8){
+        if(result.classification[ix].value > 0.85){
           if(result.classification[ix].label == "fall"){
             ready_send_data_MPU = 1;
           }
@@ -157,8 +160,8 @@ void loop2(void *parameter){
   max30100.update();
   getHeart = max30100.getHeartRate();
   getSpo2 = max30100.getSpO2();
-
   readTemperature();
+
 
 }} //for  //loop2
 
@@ -167,16 +170,16 @@ void onBeatDetected(){
         return;
       }
 
-      if(counter > 0){
+      if(counterHS > 0){
         averageHeart = ((averageHeart + getHeart)/2);
         averageSpo2 = ((averageSpo2 + getSpo2)/2);
-        counter = counter -1;
+        counterHS = counterHS -1;
+          send_data_max30100_heart=averageHeart;
+          send_data_max30100_spo2=averageSpo2;
       }
 
-      if(counter == 0){
-      send_data_max30100_heart=averageHeart;
-      send_data_max30100_spo2=averageSpo2;
-      counter = 20;
+      if(counterHS == 0){
+      counterHS = 7;
       }
 }
 
@@ -185,7 +188,6 @@ void setup() {
   Serial.begin(115200);
   Wire.begin();
 
-  pinMode(led, OUTPUT);
   conectar();
 
   //OTA
@@ -217,7 +219,7 @@ void setup() {
   max30100.setOnBeatDetectedCallback(onBeatDetected);
   //?MLX90614
   Serial.println(mlx.begin() ? F("MLX90614 iniciado correctamente") : F("Error al iniciar MLX90614"));
-  xTaskCreatePinnedToCore(loop2,"Task_1",8000,NULL,1,&Task1,0);
+  xTaskCreatePinnedToCore(loop2,"Task_1",5000,NULL,1,&Task1,0);
 }
 
 void loop() {
@@ -225,7 +227,8 @@ void loop() {
   ArduinoOTA.handle();
 
   float readBattery = (analogRead(batterry)*3.3)/4095;
-  levelBattery = readBattery*1.15;
+  float averageBattery = readBattery*1.182;
+  levelBattery = (averageBattery+levelBattery)/2;
   checkMqttConnection();
   procesarSensores();
   sendData();
@@ -274,7 +277,6 @@ if(ready_send_data_MPU == 0){
   mqttDataDoc["variables"][3]["last"]["save"] = 1;
     mqttDataDoc["variables"][3]["last"]["alarm"] = 0;
   time_last_mpu = millis();
-  digitalWrite(led,LOW);
   send_counter_mpu = 0;
 }
 
@@ -295,14 +297,16 @@ if (ready_send_data_MPU == 1){
                 //100 - 30 = 70
   varsLastS[3] = millis() - frec*1000;
   send_counter_mpu = 1;
-  digitalWrite(led,HIGH);
   }
 } 
 
   //battery
   mqttDataDoc["variables"][4]["variableName"] = "battery";
   mqttDataDoc["variables"][4]["frecuencia"] = 10; //*frecuencia a enviar el dato
-  mqttDataDoc["variables"][4]["last"]["value"] = levelBattery;  
+  mqttDataDoc["variables"][4]["last"]["value"] = levelBattery;
+  // if(levelBattery < 3.48){
+  // mqttDataDoc["variables"][4]["last"]["alarm"] = 1;  
+  // }
 
 }
 
